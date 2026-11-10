@@ -829,6 +829,24 @@
     $("#edit-toggle").setAttribute("aria-pressed", on ? "true" : "false");
   }
 
+  /**
+   * The publish workflow writes build.json. If it is missing on GitHub Pages, the site is being
+   * published straight from the branch, without tokens, fonts and the page list being generated.
+   */
+  async function checkBuild() {
+    const r = detectRepo();
+    if (!r) return;
+    try {
+      await fetchText("build.json");
+    } catch (e) {
+      const settings = "https://github.com/" + r.owner + "/" + r.name + "/settings/pages";
+      $("#main").prepend(
+        el("div", { class: "callout warning build-warning edit-only" },
+          '<span class="callout-label">Setup needed</span>This site is being published without its build step, so tokens, fonts and new pages do not show. ' +
+            'Open <a href="' + settings + '" target="_blank" rel="noopener">Settings → Pages</a>, set <strong>Source</strong> to <strong>GitHub Actions</strong>, then save any change on the site to publish again.'));
+    }
+  }
+
   async function init() {
     try {
       config = JSON.parse(await fetchText("site.config.json"));
@@ -890,6 +908,7 @@
     });
     $("#search").addEventListener("input", renderNav);
 
+    checkBuild();
     renderNewPageLinks();
     window.addEventListener("hashchange", route);
     route();
