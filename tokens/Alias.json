@@ -1,0 +1,3283 @@
+{
+  "white": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 1,
+      "hex": "#FFFFFF"
+    },
+    "$description": "Bianco di fondazione.",
+    "$extensions": {
+      "com.figma.variableId": "VariableID:55:419",
+      "com.figma.scopes": [
+        "ALL_FILLS",
+        "STROKE"
+      ],
+      "com.figma.codeSyntax": {
+        "WEB": "var(--white)"
+      },
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:9cc3a86f3cc68a9c55af16ebb97d0527b00029f2/-1:-1",
+        "targetVariableName": "white",
+        "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+        "targetVariableSetName": "Brand"
+      }
+    }
+  },
+  "black": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 1,
+      "hex": "#000000"
+    },
+    "$description": "Nero di fondazione.",
+    "$extensions": {
+      "com.figma.variableId": "VariableID:55:420",
+      "com.figma.scopes": [
+        "ALL_FILLS",
+        "STROKE"
+      ],
+      "com.figma.codeSyntax": {
+        "WEB": "var(--black)"
+      },
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:58a2e58cb110ab04ffb90784be74bc358e9dea64/-1:-1",
+        "targetVariableName": "black",
+        "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+        "targetVariableSetName": "Brand"
+      }
+    }
+  },
+  "primary": {
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9972200989723206,
+          0.9042288064956665,
+          0.9622528553009033
+        ],
+        "alpha": 1,
+        "hex": "#FEE7F5"
+      },
+      "$description": "Ruolo semantico primary, tono 100; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:337",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--primary-100)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:6d8cb4df7403e7825d9a152603d80aba0e830b15/-1:-1",
+          "targetVariableName": "pink/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.999146580696106,
+          0.7788747549057007,
+          0.9214569330215454
+        ],
+        "alpha": 1,
+        "hex": "#FFC7EB"
+      },
+      "$description": "Ruolo semantico primary, tono 200; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:338",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--primary-200)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:3f8a68ca1ba2b9b6a07f26881160289b4d8c45b6/-1:-1",
+          "targetVariableName": "pink/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9928244948387146,
+          0.6493390798568726,
+          0.8801537752151489
+        ],
+        "alpha": 1,
+        "hex": "#FDA6E0"
+      },
+      "$description": "Ruolo semantico primary, tono 300; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:339",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--primary-300)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:63079e236fb99a003102e82aa2a8a0a888fb8318/-1:-1",
+          "targetVariableName": "pink/300",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9906657338142395,
+          0.49878379702568054,
+          0.8447295427322388
+        ],
+        "alpha": 1,
+        "hex": "#FD7FD7"
+      },
+      "$description": "Ruolo semantico primary, tono 400; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:340",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--primary-400)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:83352631675a70f10a9a92542994a315b29dc929/-1:-1",
+          "targetVariableName": "pink/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9921568632125854,
+          0.29019609093666077,
+          0.8156862854957581
+        ],
+        "alpha": 1,
+        "hex": "#FD4AD0"
+      },
+      "$description": "Ruolo semantico primary, tono 500; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:341",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--primary-500)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:76fa184be0f8f35c8cc2617d454c0074cc404b7e/-1:-1",
+          "targetVariableName": "pink/500",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8068852424621582,
+          0.11946561932563782,
+          0.6534489989280701
+        ],
+        "alpha": 1,
+        "hex": "#CE1EA7"
+      },
+      "$description": "Ruolo semantico primary, tono 600; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:342",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--primary-600)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:b419305f0ba5fa531533969320ae4934cd4f79c5/-1:-1",
+          "targetVariableName": "pink/600",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5930540561676025,
+          0.05802008882164955,
+          0.47685253620147705
+        ],
+        "alpha": 1,
+        "hex": "#970F7A"
+      },
+      "$description": "Ruolo semantico primary, tono 700; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:343",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--primary-700)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:9ea23b0e6d48456732de514f6a45872c5a4cba32/-1:-1",
+          "targetVariableName": "pink/700",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3891577422618866,
+          0.020469535142183304,
+          0.3092980682849884
+        ],
+        "alpha": 1,
+        "hex": "#63054F"
+      },
+      "$description": "Ruolo semantico primary, tono 800; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:344",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--primary-800)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7c47a689cb67daf7cb30e2043fe54dd83e801eda/-1:-1",
+          "targetVariableName": "pink/800",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.20097628235816956,
+          0.006522349081933498,
+          0.15507681667804718
+        ],
+        "alpha": 1,
+        "hex": "#330228"
+      },
+      "$description": "Ruolo semantico primary, tono 900; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:345",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--primary-900)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:55f014c1469c0fcc34547caddde9d41761cbc4ca/-1:-1",
+          "targetVariableName": "pink/900",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "secondary": {
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9674448370933533,
+          0.9184583425521851,
+          0.9529234766960144
+        ],
+        "alpha": 1,
+        "hex": "#F7EAF3"
+      },
+      "$description": "Ruolo semantico secondary, tono 100; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:346",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--secondary-100)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:628b5bbca4a24c726ba3d54cec9e165c0b2d37df/-1:-1",
+          "targetVariableName": "pink-light/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9665367007255554,
+          0.8793213963508606,
+          0.9412703514099121
+        ],
+        "alpha": 1,
+        "hex": "#F6E0F0"
+      },
+      "$description": "Ruolo semantico secondary, tono 200; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:347",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--secondary-200)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d62e8a82d19277feb8067f42e38362e98a564862/-1:-1",
+          "targetVariableName": "pink-light/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9647436141967773,
+          0.840082049369812,
+          0.9294716119766235
+        ],
+        "alpha": 1,
+        "hex": "#F6D6ED"
+      },
+      "$description": "Ruolo semantico secondary, tono 300; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:348",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--secondary-300)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:65fd5407d68daf27ab8939de5cd2b93d3b659cac/-1:-1",
+          "targetVariableName": "pink-light/300",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9620954394340515,
+          0.8007000088691711,
+          0.91752690076828
+        ],
+        "alpha": 1,
+        "hex": "#F5CCEA"
+      },
+      "$description": "Ruolo semantico secondary, tono 400; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:349",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--secondary-400)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:6568988e7a7aa453027e3ca2ab90334a89cdd09c/-1:-1",
+          "targetVariableName": "pink-light/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9529411792755127,
+          0.7647058963775635,
+          0.9019607901573181
+        ],
+        "alpha": 1,
+        "hex": "#F3C3E6"
+      },
+      "$description": "Ruolo semantico secondary, tono 500; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:350",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--secondary-500)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a2a43f1c3bb53646559a4c8477552c22125810a2/-1:-1",
+          "targetVariableName": "pink-light/500",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7380620837211609,
+          0.5686593055725098,
+          0.6930522322654724
+        ],
+        "alpha": 1,
+        "hex": "#BC91B1"
+      },
+      "$description": "Ruolo semantico secondary, tono 600; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:351",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--secondary-600)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:991163d5460c38c9de8c73a4fd2777368166a61e/-1:-1",
+          "targetVariableName": "pink-light/600",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5289798378944397,
+          0.38728299736976624,
+          0.4921262264251709
+        ],
+        "alpha": 1,
+        "hex": "#87637D"
+      },
+      "$description": "Ruolo semantico secondary, tono 700; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:352",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--secondary-700)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:36c836124fb83baf65cd2d48dc7ac7b396d19b46/-1:-1",
+          "targetVariableName": "pink-light/700",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.32927387952804565,
+          0.22265642881393433,
+          0.3022681474685669
+        ],
+        "alpha": 1,
+        "hex": "#54394D"
+      },
+      "$description": "Ruolo semantico secondary, tono 800; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:353",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--secondary-800)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fc7b3af3c7dc06f69618ad5302bf1189ef690c65/-1:-1",
+          "targetVariableName": "pink-light/800",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.14836683869361877,
+          0.07543204724788666,
+          0.1310630887746811
+        ],
+        "alpha": 1,
+        "hex": "#261321"
+      },
+      "$description": "Ruolo semantico secondary, tono 900; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:354",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--secondary-900)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d2d3bb9ac6569bebf8b2eb1fd4c6a82a464ba8ba/-1:-1",
+          "targetVariableName": "pink-light/900",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "accent": {
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9108532667160034,
+          0.9655258655548096,
+          0.8092799782752991
+        ],
+        "alpha": 1,
+        "hex": "#E8F6CE"
+      },
+      "$description": "Ruolo semantico accent, tono 100; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:355",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--accent-100)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8dd28627cf2a271bbdeda8b1682051f562861a3f/-1:-1",
+          "targetVariableName": "lime/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8828954696655273,
+          0.9779143333435059,
+          0.6905680298805237
+        ],
+        "alpha": 1,
+        "hex": "#E1F9B0"
+      },
+      "$description": "Ruolo semantico accent, tono 200; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:356",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--accent-200)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:740546924defe27340cd2010d57b461d45613e42/-1:-1",
+          "targetVariableName": "lime/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8555976748466492,
+          0.9881920218467712,
+          0.5574679374694824
+        ],
+        "alpha": 1,
+        "hex": "#DAFC8E"
+      },
+      "$description": "Ruolo semantico accent, tono 300; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:357",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--accent-300)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:9289acc4e1fb6dfdda4767a83ae1eb0b2c1de9be/-1:-1",
+          "targetVariableName": "lime/300",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.828961968421936,
+          0.9965566992759705,
+          0.3926972448825836
+        ],
+        "alpha": 1,
+        "hex": "#D3FE64"
+      },
+      "$description": "Ruolo semantico accent, tono 400; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:358",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--accent-400)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:0e4d95f51825b5a6ea249f645e043ef6f3f74ef0/-1:-1",
+          "targetVariableName": "lime/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8078431487083435,
+          1,
+          0.19607843458652496
+        ],
+        "alpha": 1,
+        "hex": "#CEFF32"
+      },
+      "$description": "Ruolo semantico accent, tono 500; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:359",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--accent-500)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f430d3825caeda2ad74b4313df029a7444e73863/-1:-1",
+          "targetVariableName": "lime/500",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6064397096633911,
+          0.7547125220298767,
+          0.12723293900489807
+        ],
+        "alpha": 1,
+        "hex": "#9BC020"
+      },
+      "$description": "Ruolo semantico accent, tono 600; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:360",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--accent-600)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:32c569578d2926d885c02e4a2a99e52d7605f7f4/-1:-1",
+          "targetVariableName": "lime/600",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4170759618282318,
+          0.5233380794525146,
+          0.07011566311120987
+        ],
+        "alpha": 1,
+        "hex": "#6A8512"
+      },
+      "$description": "Ruolo semantico accent, tono 700; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:361",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--accent-700)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:2955fd17c4bca7c962f8fb3aec45b3446df8c101/-1:-1",
+          "targetVariableName": "lime/700",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.24154579639434814,
+          0.3097083568572998,
+          0.01269590761512518
+        ],
+        "alpha": 1,
+        "hex": "#3E4F03"
+      },
+      "$description": "Ruolo semantico accent, tono 800; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:362",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--accent-800)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:74bddddb4b5b7aeac4c06a062f91c84f2f4ab50c/-1:-1",
+          "targetVariableName": "lime/800",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.08632360398769379,
+          0.11860102415084839,
+          0.002800821326673031
+        ],
+        "alpha": 1,
+        "hex": "#161E01"
+      },
+      "$description": "Ruolo semantico accent, tono 900; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:363",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--accent-900)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:bb1c5aa4351cae0c3e5a5238af15b880098ad774/-1:-1",
+          "targetVariableName": "lime/900",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "neutral": {
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9344798922538757,
+          0.9344798922538757,
+          0.9344798922538757
+        ],
+        "alpha": 1,
+        "hex": "#EEEEEE"
+      },
+      "$description": "Ruolo semantico neutral, tono 100; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:364",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-100)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d7beaabe636c0d0800201d58d0977cd46e2a8340/-1:-1",
+          "targetVariableName": "neutral/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7048708200454712,
+          0.7048708200454712,
+          0.7048708200454712
+        ],
+        "alpha": 1,
+        "hex": "#B4B4B4"
+      },
+      "$description": "Ruolo semantico neutral, tono 200; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:365",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-200)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:114fef8528be1179a07b4cdc5bbd486777cbe6ad/-1:-1",
+          "targetVariableName": "neutral/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4884777367115021,
+          0.4884777069091797,
+          0.4884777069091797
+        ],
+        "alpha": 1,
+        "hex": "#7D7D7D"
+      },
+      "$description": "Ruolo semantico neutral, tono 300; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:366",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-300)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:48a0ccaab7da5f5b15088440e3170f685ce11ada/-1:-1",
+          "targetVariableName": "neutral/300",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2883170247077942,
+          0.2883169949054718,
+          0.2883169949054718
+        ],
+        "alpha": 1,
+        "hex": "#4A4A4A"
+      },
+      "$description": "Ruolo semantico neutral, tono 400; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:367",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-400)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7233efa077cf3de5126caf51a4ffa1efb4606136/-1:-1",
+          "targetVariableName": "neutral/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "425": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.21960784494876862,
+          0.21960784494876862,
+          0.21960784494876862
+        ],
+        "alpha": 1,
+        "hex": "#383838"
+      },
+      "$description": "Elevazione secondaria Dark, alias di Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:56:762",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-425)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:e6a021d788ddc9799053dc88eadf31e71aa2d02b/-1:-1",
+          "targetVariableName": "neutral/425",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1882352977991104,
+          0.1882352977991104,
+          0.1882352977991104
+        ],
+        "alpha": 1,
+        "hex": "#303030"
+      },
+      "$description": "Superficie elevata in tema Dark.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:418",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-450)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a0a8a21097eb71e0125add0e961efb6a6e57cbb3/-1:-1",
+          "targetVariableName": "neutral/450",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.10980392247438431,
+          0.10980392247438431,
+          0.10980392247438431
+        ],
+        "alpha": 1,
+        "hex": "#1C1C1C"
+      },
+      "$description": "Ruolo semantico neutral, tono 500; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:368",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-500)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:4a30a776a037e45744bf9302050f1c9f5712dff0/-1:-1",
+          "targetVariableName": "neutral/500",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.08198292553424835,
+          0.08198291808366776,
+          0.08198290318250656
+        ],
+        "alpha": 1,
+        "hex": "#151515"
+      },
+      "$description": "Ruolo semantico neutral, tono 600; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:369",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-600)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:24fd1acb958fec98ff9b8c83fe94ce7bffe7c83f/-1:-1",
+          "targetVariableName": "neutral/600",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.055252909660339355,
+          0.05525290593504906,
+          0.05525289475917816
+        ],
+        "alpha": 1,
+        "hex": "#0E0E0E"
+      },
+      "$description": "Ruolo semantico neutral, tono 700; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:370",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-700)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:bb96a7270334226386ffe21577e2e5b68176ff3d/-1:-1",
+          "targetVariableName": "neutral/700",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.03042302280664444,
+          0.03042301908135414,
+          0.030423009768128395
+        ],
+        "alpha": 1,
+        "hex": "#080808"
+      },
+      "$description": "Ruolo semantico neutral, tono 800; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:371",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-800)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d340f192d6bda697d8381ee8fcae1bccbe918fa4/-1:-1",
+          "targetVariableName": "neutral/800",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.013671504333615303,
+          0.013671502470970154,
+          0.013671498745679855
+        ],
+        "alpha": 1,
+        "hex": "#030303"
+      },
+      "$description": "Ruolo semantico neutral, tono 900; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:372",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-900)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:50bfb30ed1d0ca97b063820af9417e2bba77f42a/-1:-1",
+          "targetVariableName": "neutral/900",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "error": {
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9979137182235718,
+          0.9133614301681519,
+          0.8985593914985657
+        ],
+        "alpha": 1,
+        "hex": "#FEE9E5"
+      },
+      "$description": "Ruolo semantico error, tono 100; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:373",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--error-100)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:0692db540a3828bc909805ecc67b8b51fa16ba73/-1:-1",
+          "targetVariableName": "red/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9967659115791321,
+          0.7436816096305847,
+          0.7013662457466125
+        ],
+        "alpha": 1,
+        "hex": "#FEBEB3"
+      },
+      "$description": "Ruolo semantico error, tono 200; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:374",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--error-200)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:062bcdcbe467f2ca39d63d93fbb604b253cb4aa0/-1:-1",
+          "targetVariableName": "red/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9894875288009644,
+          0.5594908595085144,
+          0.49561429023742676
+        ],
+        "alpha": 1,
+        "hex": "#FC8F7E"
+      },
+      "$description": "Ruolo semantico error, tono 300; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:375",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--error-300)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:377f28d25d0c9a5389976d2face0c6189ce64cf7/-1:-1",
+          "targetVariableName": "red/300",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9334683418273926,
+          0.3808898329734802,
+          0.31381866335868835
+        ],
+        "alpha": 1,
+        "hex": "#EE6150"
+      },
+      "$description": "Ruolo semantico error, tono 400; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:376",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--error-400)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f7fe6c04525c460c0762bfff76ead04e0cbfeb4f/-1:-1",
+          "targetVariableName": "red/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8509804010391235,
+          0.1764705926179886,
+          0.125490203499794
+        ],
+        "alpha": 1,
+        "hex": "#D92D20"
+      },
+      "$description": "Ruolo semantico error, tono 500; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:377",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--error-500)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:5a7d54efd1a67ad71a3d5038f3ecf2ed831a4de1/-1:-1",
+          "targetVariableName": "red/500",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6965452432632446,
+          0.08513598889112473,
+          0.048964738845825195
+        ],
+        "alpha": 1,
+        "hex": "#B2160C"
+      },
+      "$description": "Ruolo semantico error, tono 600; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:378",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--error-600)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a3c17f185b80c1272ed092a25cfab340ed99ea2f/-1:-1",
+          "targetVariableName": "red/600",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5372920632362366,
+          0.01917412504553795,
+          0.006194752175360918
+        ],
+        "alpha": 1,
+        "hex": "#890502"
+      },
+      "$description": "Ruolo semantico error, tono 700; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:379",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--error-700)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:44d8e8b8badcc82dc5459a70dbd3bfe2d4c8f751/-1:-1",
+          "targetVariableName": "red/700",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3778766095638275,
+          0.00558499526232481,
+          0.0010023253271356225
+        ],
+        "alpha": 1,
+        "hex": "#600100"
+      },
+      "$description": "Ruolo semantico error, tono 800; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:380",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--error-800)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:88222c88bc02771354deba51b4be4985aa3a61fc/-1:-1",
+          "targetVariableName": "red/800",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.22772327065467834,
+          0.002690875669941306,
+          0.0007385411881841719
+        ],
+        "alpha": 1,
+        "hex": "#3A0100"
+      },
+      "$description": "Ruolo semantico error, tono 900; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:381",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--error-900)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:ef3d3a058bca087dfeb2eb0f5f90187aed614ffd/-1:-1",
+          "targetVariableName": "red/900",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "success": {
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8749122619628906,
+          0.9625706672668457,
+          0.8888681530952454
+        ],
+        "alpha": 1,
+        "hex": "#DFF5E3"
+      },
+      "$description": "Ruolo semantico success, tono 100; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:382",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--success-100)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7af390d6faec4a90901d307e92396e9f8a0683ae/-1:-1",
+          "targetVariableName": "green/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6904675960540771,
+          0.8465744256973267,
+          0.7179492115974426
+        ],
+        "alpha": 1,
+        "hex": "#B0D8B7"
+      },
+      "$description": "Ruolo semantico success, tono 200; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:383",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--success-200)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:b6a5049f561c3ed97a9cc84ee33050a5392c58b0/-1:-1",
+          "targetVariableName": "green/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5063254237174988,
+          0.7317920923233032,
+          0.5518715977668762
+        ],
+        "alpha": 1,
+        "hex": "#81BB8D"
+      },
+      "$description": "Ruolo semantico success, tono 300; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:384",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--success-300)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:673465fc7198d106043bfeb05c96168e3c3095aa/-1:-1",
+          "targetVariableName": "green/300",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.31386351585388184,
+          0.6181261539459229,
+          0.38985925912857056
+        ],
+        "alpha": 1,
+        "hex": "#509E63"
+      },
+      "$description": "Ruolo semantico success, tono 400; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:385",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--success-400)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:51eff700ffa56f713a8cf7b5fb05b6ae355bcd8d/-1:-1",
+          "targetVariableName": "green/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.08235294371843338,
+          0.501960813999176,
+          0.239215686917305
+        ],
+        "alpha": 1,
+        "hex": "#15803D"
+      },
+      "$description": "Ruolo semantico success, tono 500; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:386",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--success-500)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:c14e1a6e761416333b9cef1268a84a4526dc023d/-1:-1",
+          "targetVariableName": "green/500",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0010722302831709385,
+          0.4056357443332672,
+          0.1760326325893402
+        ],
+        "alpha": 1,
+        "hex": "#00672D"
+      },
+      "$description": "Ruolo semantico success, tono 600; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:387",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--success-600)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:6b4e988173989b2cbaaea897f7d18ed89d637413/-1:-1",
+          "targetVariableName": "green/600",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.017369825392961502,
+          0.30838289856910706,
+          0.1320921778678894
+        ],
+        "alpha": 1,
+        "hex": "#044F22"
+      },
+      "$description": "Ruolo semantico success, tono 700; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:388",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--success-700)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:ac890c9b51aeb1e5c7af4baee8b42676b897b76f/-1:-1",
+          "targetVariableName": "green/700",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.013402590528130531,
+          0.2170025259256363,
+          0.08704428374767303
+        ],
+        "alpha": 1,
+        "hex": "#033716"
+      },
+      "$description": "Ruolo semantico success, tono 800; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:389",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--success-800)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:3a833015c25c14e15732a0b27a09082833f3fd92/-1:-1",
+          "targetVariableName": "green/800",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.004576755687594414,
+          0.1322241723537445,
+          0.042138874530792236
+        ],
+        "alpha": 1,
+        "hex": "#01220B"
+      },
+      "$description": "Ruolo semantico success, tono 900; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:390",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--success-900)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:019990f5aa8a0cfd729477d3d0989f537a749dc6/-1:-1",
+          "targetVariableName": "green/900",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "warning": {
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.998593807220459,
+          0.9153221249580383,
+          0.8822683691978455
+        ],
+        "alpha": 1,
+        "hex": "#FFE9E1"
+      },
+      "$description": "Ruolo semantico warning, tono 100; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:391",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--warning-100)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:e1719bddae58095a29396f05084ced045a96d481/-1:-1",
+          "targetVariableName": "amber/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9627408385276794,
+          0.7479512095451355,
+          0.6614010334014893
+        ],
+        "alpha": 1,
+        "hex": "#F5BFA9"
+      },
+      "$description": "Ruolo semantico warning, tono 200; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:392",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--warning-200)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:1ecdbd126597e067b7add2c06bba5dce115c2a2e/-1:-1",
+          "targetVariableName": "amber/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8892024755477905,
+          0.5918830037117004,
+          0.47034215927124023
+        ],
+        "alpha": 1,
+        "hex": "#E39778"
+      },
+      "$description": "Ruolo semantico warning, tono 300; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:393",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--warning-300)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:bc536ecead8d2029774b9efb1ef51de597531d53/-1:-1",
+          "targetVariableName": "amber/300",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8089218139648438,
+          0.4341571033000946,
+          0.27446192502975464
+        ],
+        "alpha": 1,
+        "hex": "#CE6F46"
+      },
+      "$description": "Ruolo semantico warning, tono 400; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:394",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--warning-400)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:31d1b3d392cd91593e0532eeda1604920b3d5624/-1:-1",
+          "targetVariableName": "amber/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7098039388656616,
+          0.27843138575553894,
+          0.0313725508749485
+        ],
+        "alpha": 1,
+        "hex": "#B54708"
+      },
+      "$description": "Ruolo semantico warning, tono 500; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:395",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--warning-500)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:b1210a82a6094f85c4a28af8b5da79e3e8ed4ec3/-1:-1",
+          "targetVariableName": "amber/500",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.572230875492096,
+          0.2166188806295395,
+          0.014049879275262356
+        ],
+        "alpha": 1,
+        "hex": "#923704"
+      },
+      "$description": "Ruolo semantico warning, tono 600; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:396",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--warning-600)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d7f372d5467d93fa091f1adddd32fd04382c4d34/-1:-1",
+          "targetVariableName": "amber/600",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4356054663658142,
+          0.16259601712226868,
+          0.018835406750440598
+        ],
+        "alpha": 1,
+        "hex": "#6F2905"
+      },
+      "$description": "Ruolo semantico warning, tono 700; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:397",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--warning-700)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fa459f2e36a932000abd773f822ef58cd241da59/-1:-1",
+          "targetVariableName": "amber/700",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3091774582862854,
+          0.10804488509893417,
+          0.011456511914730072
+        ],
+        "alpha": 1,
+        "hex": "#4F1C03"
+      },
+      "$description": "Ruolo semantico warning, tono 800; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:398",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--warning-800)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:2021fc3df3ad3a3f21d3645f0b2ffc7664055433/-1:-1",
+          "targetVariableName": "amber/800",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.19359707832336426,
+          0.05437256395816803,
+          0.002935399068519473
+        ],
+        "alpha": 1,
+        "hex": "#310E01"
+      },
+      "$description": "Ruolo semantico warning, tono 900; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:399",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--warning-900)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8f2abc31abf4c4511a6f99bb502105f2737ab0cf/-1:-1",
+          "targetVariableName": "amber/900",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "information": {
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9020707607269287,
+          0.9374923706054688,
+          0.9969778060913086
+        ],
+        "alpha": 1,
+        "hex": "#E6EFFE"
+      },
+      "$description": "Ruolo semantico information, tono 100; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:400",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--information-100)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8655136f264b2e90f89d80fc439b97ad2a987293/-1:-1",
+          "targetVariableName": "blue/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6800130605697632,
+          0.798643171787262,
+          0.9998851418495178
+        ],
+        "alpha": 1,
+        "hex": "#ADCCFF"
+      },
+      "$description": "Ruolo semantico information, tono 200; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:401",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--information-200)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:e6df21902e8e68b7f566ea29366a3474c97193d1/-1:-1",
+          "targetVariableName": "blue/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4751818776130676,
+          0.6561768054962158,
+          0.9693663716316223
+        ],
+        "alpha": 1,
+        "hex": "#79A7F7"
+      },
+      "$description": "Ruolo semantico information, tono 300; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:402",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--information-300)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:1e88191cbb1fd3f5dd9819e65b7ca75f54b8937d/-1:-1",
+          "targetVariableName": "blue/300",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2839297950267792,
+          0.5104811191558838,
+          0.9115743041038513
+        ],
+        "alpha": 1,
+        "hex": "#4882E8"
+      },
+      "$description": "Ruolo semantico information, tono 400; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:403",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--information-400)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:43e1d7ea358f52d9fae9f4dea2e6b18c8254b0b9/-1:-1",
+          "targetVariableName": "blue/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.09019608050584793,
+          0.3607843220233917,
+          0.8274509906768799
+        ],
+        "alpha": 1,
+        "hex": "#175CD3"
+      },
+      "$description": "Ruolo semantico information, tono 500; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:404",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--information-500)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:68cf192dba87d5b7f2dea9c3e80b416ae9ab8c7a/-1:-1",
+          "targetVariableName": "blue/500",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.006089183501899242,
+          0.27670997381210327,
+          0.7106663584709167
+        ],
+        "alpha": 1,
+        "hex": "#0247B5"
+      },
+      "$description": "Ruolo semantico information, tono 600; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:405",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--information-600)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:3c4aa467e87e3f678088960ed1d7d5bf43244b81/-1:-1",
+          "targetVariableName": "blue/600",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.015327384695410728,
+          0.21286281943321228,
+          0.5458265542984009
+        ],
+        "alpha": 1,
+        "hex": "#04368B"
+      },
+      "$description": "Ruolo semantico information, tono 700; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:406",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--information-700)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:1671383dbebf201cfaf054d02ea394a0ddf248e4/-1:-1",
+          "targetVariableName": "blue/700",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.002913275733590126,
+          0.1461552232503891,
+          0.40685737133026123
+        ],
+        "alpha": 1,
+        "hex": "#012568"
+      },
+      "$description": "Ruolo semantico information, tono 800; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:407",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--information-800)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7cc0a71d97099143f81af6b24c594acff659e6d0/-1:-1",
+          "targetVariableName": "blue/800",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0018856946844607592,
+          0.08644641190767288,
+          0.26742470264434814
+        ],
+        "alpha": 1,
+        "hex": "#001644"
+      },
+      "$description": "Ruolo semantico information, tono 900; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:408",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--information-900)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:eeb1291bd246033250e25b7de785613099aaf114/-1:-1",
+          "targetVariableName": "blue/900",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "cream": {
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9954104423522949,
+          0.9934601783752441,
+          0.987587571144104
+        ],
+        "alpha": 1,
+        "hex": "#FEFDFC"
+      },
+      "$description": "Ruolo semantico cream, tono 100; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:409",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--cream-100)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a6eb7981d4be0d17dbc676b584159bc604458f21/-1:-1",
+          "targetVariableName": "cream/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9966576099395752,
+          0.9931420683860779,
+          0.9825668334960938
+        ],
+        "alpha": 1,
+        "hex": "#FEFDFB"
+      },
+      "$description": "Ruolo semantico cream, tono 200; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:410",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--cream-200)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d95d97553bd08a1a376554527138b592bdde663a/-1:-1",
+          "targetVariableName": "cream/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9979050159454346,
+          0.9928196668624878,
+          0.9775375127792358
+        ],
+        "alpha": 1,
+        "hex": "#FEFDF9"
+      },
+      "$description": "Ruolo semantico cream, tono 300; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:411",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--cream-300)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:2689d6e7dc386e54de8dba14dbe3b4c28957332a/-1:-1",
+          "targetVariableName": "cream/300",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9991526007652283,
+          0.9924929738044739,
+          0.9724995493888855
+        ],
+        "alpha": 1,
+        "hex": "#FFFDF8"
+      },
+      "$description": "Ruolo semantico cream, tono 400; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:412",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--cream-400)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:dca798d2694be34f90f1cc27f6a67dae4e4069af/-1:-1",
+          "targetVariableName": "cream/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9921568632125854,
+          0.9686274528503418
+        ],
+        "alpha": 1,
+        "hex": "#FFFDF7"
+      },
+      "$description": "Ruolo semantico cream, tono 500; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:413",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--cream-500)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:708d52eb9e1d8c845c46910d61885c09f9e51abe/-1:-1",
+          "targetVariableName": "cream/500",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7509639859199524,
+          0.7438960075378418,
+          0.7227103114128113
+        ],
+        "alpha": 1,
+        "hex": "#BFBEB8"
+      },
+      "$description": "Ruolo semantico cream, tono 600; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:414",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--cream-600)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:0e3ec20335c11aef4ed1d7fa58367c89203dddf9/-1:-1",
+          "targetVariableName": "cream/600",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5162190198898315,
+          0.5103083848953247,
+          0.49260926246643066
+        ],
+        "alpha": 1,
+        "hex": "#84827E"
+      },
+      "$description": "Ruolo semantico cream, tono 700; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:415",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--cream-700)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:5a5b3a013717e84100ddd70f2a3bc319423e6439/-1:-1",
+          "targetVariableName": "cream/700",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2993030250072479,
+          0.2948713004589081,
+          0.28161823749542236
+        ],
+        "alpha": 1,
+        "hex": "#4C4B48"
+      },
+      "$description": "Ruolo semantico cream, tono 800; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:416",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--cream-800)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:28675ebbe96941c4130259f18ac917b52db76f72/-1:-1",
+          "targetVariableName": "cream/800",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.10697880387306213,
+          0.10398731380701065,
+          0.09507213532924652
+        ],
+        "alpha": 1,
+        "hex": "#1B1B18"
+      },
+      "$description": "Ruolo semantico cream, tono 900; riferimento a Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:417",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--cream-900)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a05cd985fde39bbe265acbca2927280ae05bcdcc/-1:-1",
+          "targetVariableName": "cream/900",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "radius": {
+    "none": {
+      "$type": "number",
+      "$value": 0,
+      "$description": "Raggio semantico none.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:421",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-none)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7a07ad0e802660b10f53ee4f4b7695a66c7d892d/-1:-1",
+          "targetVariableName": "radius/000",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "xs": {
+      "$type": "number",
+      "$value": 2,
+      "$description": "Raggio semantico xs.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:422",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-xs)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a3dc9709c976d51daac772efcf4ebac3ca17b05e/-1:-1",
+          "targetVariableName": "radius/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "sm": {
+      "$type": "number",
+      "$value": 4,
+      "$description": "Raggio semantico sm.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:423",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-sm)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:ec4c505e786d017dc44e20efa45e571c3c330f10/-1:-1",
+          "targetVariableName": "radius/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "md": {
+      "$type": "number",
+      "$value": 8,
+      "$description": "Raggio semantico md.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:424",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-md)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:69c3468d7342ab2ed08348b4cf1ddfe0466ec0d5/-1:-1",
+          "targetVariableName": "radius/300",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "lg": {
+      "$type": "number",
+      "$value": 12,
+      "$description": "Raggio semantico lg.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:425",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-lg)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a8b36ce3d35a2234e9104eedcabc0249199bfa6f/-1:-1",
+          "targetVariableName": "radius/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 16,
+      "$description": "Raggio semantico xl.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:426",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-xl)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:03585cbf1dbbb48b5b2b96109924de009dc5f67f/-1:-1",
+          "targetVariableName": "radius/500",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "2xl": {
+      "$type": "number",
+      "$value": 24,
+      "$description": "Raggio semantico 2xl.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:427",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-2xl)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:ace1d8576d08b9aaa2dfa5b11609741382a5e624/-1:-1",
+          "targetVariableName": "radius/600",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "full": {
+      "$type": "number",
+      "$value": 999,
+      "$description": "Raggio semantico full.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:428",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-full)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7d8dd9a976d12cd351057725a7739774562ac783/-1:-1",
+          "targetVariableName": "radius/700",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "border-width": {
+    "none": {
+      "$type": "number",
+      "$value": 0,
+      "$description": "Bordo semantico none.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:429",
+        "com.figma.scopes": [
+          "STROKE_FLOAT"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-width-none)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:837f89eaf4e30205c6837e387d8252bf980f7ecd/-1:-1",
+          "targetVariableName": "border-width/000",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "sm": {
+      "$type": "number",
+      "$value": 1,
+      "$description": "Bordo semantico sm.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:430",
+        "com.figma.scopes": [
+          "STROKE_FLOAT"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-width-sm)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:afac26ff37699986a2751837b9849244c827e140/-1:-1",
+          "targetVariableName": "border-width/100",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "md": {
+      "$type": "number",
+      "$value": 2,
+      "$description": "Bordo semantico md.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:431",
+        "com.figma.scopes": [
+          "STROKE_FLOAT"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-width-md)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:9655bc6f68eb10a50905a366edd2493d19651184/-1:-1",
+          "targetVariableName": "border-width/200",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "lg": {
+      "$type": "number",
+      "$value": 4,
+      "$description": "Bordo semantico lg.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:432",
+        "com.figma.scopes": [
+          "STROKE_FLOAT"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-width-lg)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:386c19801f88678ee9c7ec4623e32fad6c5caff7/-1:-1",
+          "targetVariableName": "border-width/400",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "shadow": {
+    "xs": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.07999999821186066,
+        "hex": "#000000"
+      },
+      "$description": "Intensità d’ombra xs: nero al 8%, collegato al primitivo Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:78:149",
+        "com.figma.codeSyntax": {
+          "WEB": "var(--shadow-xs)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:4f545b83222b80c02f5882e35bc1cca896541a3c/-1:-1",
+          "targetVariableName": "shadow/black-08",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "sm": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.11999999731779099,
+        "hex": "#000000"
+      },
+      "$description": "Intensità d’ombra sm: nero al 12%, collegato al primitivo Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:78:151",
+        "com.figma.codeSyntax": {
+          "WEB": "var(--shadow-sm)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:9794f066614777c0f4d2a6d6904abc73d1e7fc6d/-1:-1",
+          "targetVariableName": "shadow/black-12",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "md": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.1599999964237213,
+        "hex": "#000000"
+      },
+      "$description": "Intensità d’ombra md: nero al 16%, collegato al primitivo Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:78:153",
+        "com.figma.codeSyntax": {
+          "WEB": "var(--shadow-md)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7d27eae228dcc1c7b5b409cbabb9188341a8813d/-1:-1",
+          "targetVariableName": "shadow/black-16",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "lg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.23999999463558197,
+        "hex": "#000000"
+      },
+      "$description": "Intensità d’ombra lg: nero al 24%, collegato al primitivo Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:78:155",
+        "com.figma.codeSyntax": {
+          "WEB": "var(--shadow-lg)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d6f6ea4d9bf63fceeac8f1c005908f642971106e/-1:-1",
+          "targetVariableName": "shadow/black-24",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "xl": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.3199999928474426,
+        "hex": "#000000"
+      },
+      "$description": "Intensità d’ombra xl: nero al 32%, collegato al primitivo Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:78:157",
+        "com.figma.codeSyntax": {
+          "WEB": "var(--shadow-xl)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d08c9ad7157eef3e2d8426c40141c2a05cac5b20/-1:-1",
+          "targetVariableName": "shadow/black-32",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "2xl": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.4000000059604645,
+        "hex": "#000000"
+      },
+      "$description": "Intensità d’ombra 2xl: nero al 40%, collegato al primitivo Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:78:159",
+        "com.figma.codeSyntax": {
+          "WEB": "var(--shadow-2xl)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:c1b0dd5903b2493013ceec8d2954c2fe19605f62/-1:-1",
+          "targetVariableName": "shadow/black-40",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "3xl": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.47999998927116394,
+        "hex": "#000000"
+      },
+      "$description": "Intensità d’ombra 3xl: nero al 48%, collegato al primitivo Brand.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:78:161",
+        "com.figma.codeSyntax": {
+          "WEB": "var(--shadow-3xl)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8c584f9b7c19fd824e189c753cc36682ea38546b/-1:-1",
+          "targetVariableName": "shadow/black-48",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "elevation": {
+    "sm": {
+      "offset-x": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Card ed elementi appena sollevati. offset-x 0 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:162",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-sm-offset-x)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "offset-y": {
+        "$type": "number",
+        "$value": 2,
+        "$description": "Card ed elementi appena sollevati. offset-y 2 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:163",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-sm-offset-y)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ebb71784db95f8a4ddd4a4d57ec0de1c0fc8a7f0/-1:-1",
+            "targetVariableName": "size/100",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "blur": {
+        "$type": "number",
+        "$value": 4,
+        "$description": "Card ed elementi appena sollevati. blur 4 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:164",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-sm-blur)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0cd9fcb6449a827e6354b287efe2bd309a592760/-1:-1",
+            "targetVariableName": "size/200",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "spread": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Card ed elementi appena sollevati. spread 0 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:165",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-sm-spread)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      }
+    },
+    "md": {
+      "offset-x": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Dropdown, menu, popover e tooltip. offset-x 0 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:168",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-md-offset-x)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "offset-y": {
+        "$type": "number",
+        "$value": 4,
+        "$description": "Dropdown, menu, popover e tooltip. offset-y 4 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:169",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-md-offset-y)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0cd9fcb6449a827e6354b287efe2bd309a592760/-1:-1",
+            "targetVariableName": "size/200",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "blur": {
+        "$type": "number",
+        "$value": 8,
+        "$description": "Dropdown, menu, popover e tooltip. blur 8 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:170",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-md-blur)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f0336406e77622603d9dfed39f3db51b6484205a/-1:-1",
+            "targetVariableName": "size/300",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "spread": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Dropdown, menu, popover e tooltip. spread 0 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:171",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-md-spread)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      }
+    },
+    "lg": {
+      "offset-x": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Modal, dialog e drawer. offset-x 0 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:174",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-lg-offset-x)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "offset-y": {
+        "$type": "number",
+        "$value": 8,
+        "$description": "Modal, dialog e drawer. offset-y 8 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:175",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-lg-offset-y)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f0336406e77622603d9dfed39f3db51b6484205a/-1:-1",
+            "targetVariableName": "size/300",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "blur": {
+        "$type": "number",
+        "$value": 16,
+        "$description": "Modal, dialog e drawer. blur 16 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:176",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-lg-blur)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:7e0a9a8d642271230aa6a46b0d62afecd49f35e8/-1:-1",
+            "targetVariableName": "size/500",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "spread": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Modal, dialog e drawer. spread 0 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:177",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-lg-spread)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      }
+    },
+    "xl": {
+      "offset-x": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Toast e notifiche sopra gli altri elementi. offset-x 0 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:180",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-xl-offset-x)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "offset-y": {
+        "$type": "number",
+        "$value": 16,
+        "$description": "Toast e notifiche sopra gli altri elementi. offset-y 16 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:181",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-xl-offset-y)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:7e0a9a8d642271230aa6a46b0d62afecd49f35e8/-1:-1",
+            "targetVariableName": "size/500",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "blur": {
+        "$type": "number",
+        "$value": 24,
+        "$description": "Toast e notifiche sopra gli altri elementi. blur 24 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:182",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-xl-blur)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:51e9cd1ffe842585a531996925391be82e9ef415/-1:-1",
+            "targetVariableName": "size/700",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "spread": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Toast e notifiche sopra gli altri elementi. spread 0 px; luce dall’alto, uno strato. Offset Y 2/4/8/16 e blur 4/8/16/24 crescenti con il livello.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:183",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--elevation-xl-spread)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Base"
+  }
+}

@@ -1,0 +1,2475 @@
+{
+  "spacing": {
+    "inset": {
+      "none": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Spazio inset none. Desktop/Tablet 0 px, Mobile 0 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:604",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inset-none)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "2xs": {
+        "$type": "number",
+        "$value": 2,
+        "$description": "Spazio inset 2xs. Desktop/Tablet 2 px, Mobile 2 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:605",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inset-2xs)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ebb71784db95f8a4ddd4a4d57ec0de1c0fc8a7f0/-1:-1",
+            "targetVariableName": "size/100",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "xs": {
+        "$type": "number",
+        "$value": 4,
+        "$description": "Spazio inset xs. Desktop/Tablet 4 px, Mobile 4 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:606",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inset-xs)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0cd9fcb6449a827e6354b287efe2bd309a592760/-1:-1",
+            "targetVariableName": "size/200",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "sm": {
+        "$type": "number",
+        "$value": 8,
+        "$description": "Spazio inset sm. Desktop/Tablet 8 px, Mobile 8 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:607",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inset-sm)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f0336406e77622603d9dfed39f3db51b6484205a/-1:-1",
+            "targetVariableName": "size/300",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "md": {
+        "$type": "number",
+        "$value": 16,
+        "$description": "Spazio inset md. Desktop/Tablet 16 px, Mobile 16 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:608",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inset-md)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:7e0a9a8d642271230aa6a46b0d62afecd49f35e8/-1:-1",
+            "targetVariableName": "size/500",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "lg": {
+        "$type": "number",
+        "$value": 24,
+        "$description": "Spazio inset lg. Desktop/Tablet 24 px, Mobile 20 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:609",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inset-lg)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:51e9cd1ffe842585a531996925391be82e9ef415/-1:-1",
+            "targetVariableName": "size/700",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "xl": {
+        "$type": "number",
+        "$value": 32,
+        "$description": "Spazio inset xl. Desktop/Tablet 32 px, Mobile 24 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:610",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inset-xl)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ad85a4e997dca06bbe3d63a3eea8fcc92c982927/-1:-1",
+            "targetVariableName": "size/900",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "2xl": {
+        "$type": "number",
+        "$value": 48,
+        "$description": "Spazio inset 2xl. Desktop/Tablet 48 px, Mobile 36 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:611",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inset-2xl)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:4ca2e9dd146a896cf30c6ef3ef6a8aa5c61bda70/-1:-1",
+            "targetVariableName": "size/1300",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "sm-plus": {
+        "$type": "number",
+        "$value": 12,
+        "$description": "Taglia intermedia tra sm e md: inset di 12 px in tutti i modes, per conservare il padding verticale dei controlli e la densità esistente.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:146",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inset-sm-plus)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:c052a53fcbfac7bc4419ab87440e73d334fa7269/-1:-1",
+            "targetVariableName": "size/400",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      }
+    },
+    "inline": {
+      "none": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Spazio inline none. Desktop/Tablet 0 px, Mobile 0 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:612",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inline-none)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "2xs": {
+        "$type": "number",
+        "$value": 2,
+        "$description": "Spazio inline 2xs. Desktop/Tablet 2 px, Mobile 2 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:613",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inline-2xs)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ebb71784db95f8a4ddd4a4d57ec0de1c0fc8a7f0/-1:-1",
+            "targetVariableName": "size/100",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "xs": {
+        "$type": "number",
+        "$value": 4,
+        "$description": "Spazio inline xs. Desktop/Tablet 4 px, Mobile 4 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:614",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inline-xs)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0cd9fcb6449a827e6354b287efe2bd309a592760/-1:-1",
+            "targetVariableName": "size/200",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "sm": {
+        "$type": "number",
+        "$value": 8,
+        "$description": "Spazio inline sm. Desktop/Tablet 8 px, Mobile 8 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:615",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inline-sm)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f0336406e77622603d9dfed39f3db51b6484205a/-1:-1",
+            "targetVariableName": "size/300",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "md": {
+        "$type": "number",
+        "$value": 12,
+        "$description": "Spazio inline md. Desktop/Tablet 12 px, Mobile 12 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:616",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inline-md)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:c052a53fcbfac7bc4419ab87440e73d334fa7269/-1:-1",
+            "targetVariableName": "size/400",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "lg": {
+        "$type": "number",
+        "$value": 16,
+        "$description": "Spazio inline lg. Desktop/Tablet 16 px, Mobile 16 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:617",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inline-lg)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:7e0a9a8d642271230aa6a46b0d62afecd49f35e8/-1:-1",
+            "targetVariableName": "size/500",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "xl": {
+        "$type": "number",
+        "$value": 24,
+        "$description": "Spazio inline xl. Desktop/Tablet 24 px, Mobile 24 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:618",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inline-xl)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:51e9cd1ffe842585a531996925391be82e9ef415/-1:-1",
+            "targetVariableName": "size/700",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "2xl": {
+        "$type": "number",
+        "$value": 32,
+        "$description": "Spazio inline 2xl. Desktop/Tablet 32 px, Mobile 32 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:619",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-inline-2xl)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ad85a4e997dca06bbe3d63a3eea8fcc92c982927/-1:-1",
+            "targetVariableName": "size/900",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      }
+    },
+    "stack": {
+      "none": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Spazio stack none. Desktop/Tablet 0 px, Mobile 0 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:620",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-stack-none)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "2xs": {
+        "$type": "number",
+        "$value": 2,
+        "$description": "Spazio stack 2xs. Desktop/Tablet 2 px, Mobile 2 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:621",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-stack-2xs)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ebb71784db95f8a4ddd4a4d57ec0de1c0fc8a7f0/-1:-1",
+            "targetVariableName": "size/100",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "xs": {
+        "$type": "number",
+        "$value": 4,
+        "$description": "Spazio stack xs. Desktop/Tablet 4 px, Mobile 4 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:622",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-stack-xs)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0cd9fcb6449a827e6354b287efe2bd309a592760/-1:-1",
+            "targetVariableName": "size/200",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "sm": {
+        "$type": "number",
+        "$value": 8,
+        "$description": "Spazio stack sm. Desktop/Tablet 8 px, Mobile 8 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:623",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-stack-sm)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f0336406e77622603d9dfed39f3db51b6484205a/-1:-1",
+            "targetVariableName": "size/300",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "md": {
+        "$type": "number",
+        "$value": 16,
+        "$description": "Spazio stack md. Desktop/Tablet 16 px, Mobile 16 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:624",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-stack-md)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:7e0a9a8d642271230aa6a46b0d62afecd49f35e8/-1:-1",
+            "targetVariableName": "size/500",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "lg": {
+        "$type": "number",
+        "$value": 24,
+        "$description": "Spazio stack lg. Desktop/Tablet 24 px, Mobile 20 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:625",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-stack-lg)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:51e9cd1ffe842585a531996925391be82e9ef415/-1:-1",
+            "targetVariableName": "size/700",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "xl": {
+        "$type": "number",
+        "$value": 32,
+        "$description": "Spazio stack xl. Desktop/Tablet 32 px, Mobile 24 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:626",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-stack-xl)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ad85a4e997dca06bbe3d63a3eea8fcc92c982927/-1:-1",
+            "targetVariableName": "size/900",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "2xl": {
+        "$type": "number",
+        "$value": 48,
+        "$description": "Spazio stack 2xl. Desktop/Tablet 48 px, Mobile 36 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:627",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-stack-2xl)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:4ca2e9dd146a896cf30c6ef3ef6a8aa5c61bda70/-1:-1",
+            "targetVariableName": "size/1300",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "md-plus": {
+        "$type": "number",
+        "$value": 20,
+        "$description": "Taglia intermedia tra md e lg: stack di 20 px in tutti i modes, per conservare la densità dei gruppi compatti.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:78:147",
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-stack-md-plus)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:cf759643d5a192156fd87d7c971e02d277b17724/-1:-1",
+            "targetVariableName": "size/600",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      }
+    },
+    "section": {
+      "none": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Spazio section none. Desktop/Tablet 0 px, Mobile 0 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:628",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-section-none)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "2xs": {
+        "$type": "number",
+        "$value": 8,
+        "$description": "Spazio section 2xs. Desktop/Tablet 8 px, Mobile 8 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:629",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-section-2xs)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f0336406e77622603d9dfed39f3db51b6484205a/-1:-1",
+            "targetVariableName": "size/300",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "xs": {
+        "$type": "number",
+        "$value": 16,
+        "$description": "Spazio section xs. Desktop/Tablet 16 px, Mobile 16 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:630",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-section-xs)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:7e0a9a8d642271230aa6a46b0d62afecd49f35e8/-1:-1",
+            "targetVariableName": "size/500",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "sm": {
+        "$type": "number",
+        "$value": 24,
+        "$description": "Spazio section sm. Desktop/Tablet 24 px, Mobile 20 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:631",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-section-sm)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:51e9cd1ffe842585a531996925391be82e9ef415/-1:-1",
+            "targetVariableName": "size/700",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "md": {
+        "$type": "number",
+        "$value": 48,
+        "$description": "Spazio section md. Desktop/Tablet 48 px, Mobile 36 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:632",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-section-md)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:4ca2e9dd146a896cf30c6ef3ef6a8aa5c61bda70/-1:-1",
+            "targetVariableName": "size/1300",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "lg": {
+        "$type": "number",
+        "$value": 64,
+        "$description": "Spazio section lg. Desktop/Tablet 64 px, Mobile 48 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:633",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-section-lg)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:7ad95a59d65295cde38e4665f27bd516e6db4fbc/-1:-1",
+            "targetVariableName": "size/1700",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "xl": {
+        "$type": "number",
+        "$value": 96,
+        "$description": "Spazio section xl. Desktop/Tablet 96 px, Mobile 72 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:634",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-section-xl)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:622ec983e0ccb57d96632d2bf170678f43b3adbb/-1:-1",
+            "targetVariableName": "size/2500",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "2xl": {
+        "$type": "number",
+        "$value": 128,
+        "$description": "Spazio section 2xl. Desktop/Tablet 128 px, Mobile 96 px; griglia 4 px, eccezione 2 px.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:635",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-section-2xl)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:239ca79fc186f4381282e84087542a9a770648ea/-1:-1",
+            "targetVariableName": "size/3300",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      }
+    },
+    "card": {
+      "media-inset": {
+        "$type": "number",
+        "$value": "{spacing.inset.none}",
+        "$description": "Margine del media full-bleed; zero lascia il media a filo. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:636",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-card-media-inset)"
+          }
+        }
+      },
+      "metadata-inline": {
+        "$type": "number",
+        "$value": "{spacing.inline.2xs}",
+        "$description": "Distanza ottica fra metadati compatti. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:637",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-card-metadata-inline)"
+          }
+        }
+      },
+      "title-subtitle": {
+        "$type": "number",
+        "$value": "{spacing.stack.xs}",
+        "$description": "Distanza fra titolo e sottotitolo della card. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:638",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-card-title-subtitle)"
+          }
+        }
+      },
+      "header-content": {
+        "$type": "number",
+        "$value": "{spacing.stack.sm}",
+        "$description": "Distanza fra intestazione e contenuto della card. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:639",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-card-header-content)"
+          }
+        }
+      },
+      "content-action": {
+        "$type": "number",
+        "$value": "{spacing.stack.md}",
+        "$description": "Distanza fra contenuto e azioni della card. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:640",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-card-content-action)"
+          }
+        }
+      },
+      "inset": {
+        "$type": "number",
+        "$value": "{spacing.inset.lg}",
+        "$description": "Padding interno della card; ridotto su Mobile. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:641",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-card-inset)"
+          }
+        }
+      },
+      "section-gap": {
+        "$type": "number",
+        "$value": "{spacing.inset.xl}",
+        "$description": "Distanza fra sezioni interne della card. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:642",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-card-section-gap)"
+          }
+        }
+      },
+      "group-gap": {
+        "$type": "number",
+        "$value": "{spacing.section.md}",
+        "$description": "Distanza fra gruppi di card. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:643",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-card-group-gap)"
+          }
+        }
+      }
+    },
+    "button": {
+      "label-badge": {
+        "$type": "number",
+        "$value": "{spacing.inline.2xs}",
+        "$description": "Distanza ottica tra etichetta e badge integrato. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:645",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-button-label-badge)"
+          }
+        }
+      },
+      "icon-label": {
+        "$type": "number",
+        "$value": "{spacing.inline.sm}",
+        "$description": "Distanza fra icona ed etichetta del pulsante. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:647",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-button-icon-label)"
+          }
+        }
+      },
+      "group-gap": {
+        "$type": "number",
+        "$value": "{spacing.inline.2xl}",
+        "$description": "Distanza fra gruppi di pulsanti. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:651",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-button-group-gap)"
+          }
+        }
+      },
+      "inset": {
+        "text-only": {
+          "$type": "number",
+          "$value": "{spacing.inset.none}",
+          "$description": "Inset nullo per la variante testuale; mantenere separatamente il target minimo. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:644",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-button-inset-text-only)"
+            }
+          }
+        }
+      },
+      "inset-vertical": {
+        "compact": {
+          "$type": "number",
+          "$value": "{spacing.inset.xs}",
+          "$description": "Padding verticale per il pulsante compatto; mantenere target minimo 44 px. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:646",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-button-inset-vertical-compact)"
+            }
+          }
+        },
+        "$root": {
+          "$type": "number",
+          "$value": "{spacing.inset.sm-plus}",
+          "$description": "Padding verticale del pulsante standard. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:648",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-button-inset-vertical)"
+            }
+          }
+        }
+      },
+      "inset-horizontal": {
+        "comfortable": {
+          "$type": "number",
+          "$value": "{spacing.inline.xl}",
+          "$description": "Padding orizzontale del pulsante ampio. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:650",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-button-inset-horizontal-comfortable)"
+            }
+          }
+        },
+        "$root": {
+          "$type": "number",
+          "$value": "{spacing.inset.md}",
+          "$description": "Padding orizzontale del pulsante standard. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:649",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-button-inset-horizontal)"
+            }
+          }
+        }
+      }
+    },
+    "input": {
+      "affix-inset": {
+        "$type": "number",
+        "$value": "{spacing.inset.none}",
+        "$description": "Inset aggiuntivo degli affissi interni; zero usa il padding del campo. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:652",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-input-affix-inset)"
+          }
+        }
+      },
+      "label-required": {
+        "$type": "number",
+        "$value": "{spacing.inline.2xs}",
+        "$description": "Distanza fra etichetta e indicatore di campo obbligatorio. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:653",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-input-label-required)"
+          }
+        }
+      },
+      "field-description": {
+        "$type": "number",
+        "$value": "{spacing.stack.xs}",
+        "$description": "Distanza fra campo e descrizione o messaggio di errore. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:654",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-input-field-description)"
+          }
+        }
+      },
+      "label-field": {
+        "$type": "number",
+        "$value": "{spacing.stack.sm}",
+        "$description": "Distanza fra etichetta e campo. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:655",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-input-label-field)"
+          }
+        }
+      },
+      "inset-vertical": {
+        "$type": "number",
+        "$value": "{spacing.inset.sm-plus}",
+        "$description": "Padding verticale interno del campo. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:656",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-input-inset-vertical)"
+          }
+        }
+      },
+      "inset-horizontal": {
+        "$type": "number",
+        "$value": "{spacing.inset.md}",
+        "$description": "Padding orizzontale interno standard del campo. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:657",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-input-inset-horizontal)"
+          }
+        }
+      },
+      "group-gap": {
+        "compact": {
+          "$type": "number",
+          "$value": "{spacing.stack.md-plus}",
+          "$description": "Distanza fra campi in un gruppo compatto. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:658",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-input-group-gap-compact)"
+            }
+          }
+        },
+        "$root": {
+          "$type": "number",
+          "$value": "{spacing.inline.xl}",
+          "$description": "Distanza fra gruppi di campi. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:659",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-input-group-gap)"
+            }
+          }
+        }
+      }
+    },
+    "tag-badge": {
+      "group-inline": {
+        "$type": "number",
+        "$value": "{spacing.inline.lg}",
+        "$description": "Distanza orizzontale fra gruppi di tag. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:665",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-tag-badge-group-inline)"
+          }
+        }
+      },
+      "inset": {
+        "text-only": {
+          "$type": "number",
+          "$value": "{spacing.inset.none}",
+          "$description": "Inset nullo del badge solo testo; non definisce il target interattivo. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:660",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-tag-badge-inset-text-only)"
+            }
+          }
+        }
+      },
+      "inset-vertical": {
+        "compact": {
+          "$type": "number",
+          "$value": "{spacing.inset.2xs}",
+          "$description": "Padding verticale del tag compatto. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:661",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-tag-badge-inset-vertical-compact)"
+            }
+          }
+        },
+        "$root": {
+          "$type": "number",
+          "$value": "{spacing.inset.xs}",
+          "$description": "Padding verticale del tag standard. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:662",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-tag-badge-inset-vertical)"
+            }
+          }
+        }
+      },
+      "inset-horizontal": {
+        "comfortable": {
+          "$type": "number",
+          "$value": "{spacing.inset.sm-plus}",
+          "$description": "Padding orizzontale del tag ampio. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:664",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-tag-badge-inset-horizontal-comfortable)"
+            }
+          }
+        },
+        "$root": {
+          "$type": "number",
+          "$value": "{spacing.inset.sm}",
+          "$description": "Padding orizzontale del tag standard. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:663",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-tag-badge-inset-horizontal)"
+            }
+          }
+        }
+      },
+      "group-stack": {
+        "compact": {
+          "$type": "number",
+          "$value": "{spacing.stack.md-plus}",
+          "$description": "Distanza verticale fra gruppi compatti di tag. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:666",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-tag-badge-group-stack-compact)"
+            }
+          }
+        },
+        "$root": {
+          "$type": "number",
+          "$value": "{spacing.inline.xl}",
+          "$description": "Distanza verticale fra gruppi di tag. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:667",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-tag-badge-group-stack)"
+            }
+          }
+        }
+      }
+    },
+    "navigation": {
+      "edge-inset": {
+        "$type": "number",
+        "$value": "{spacing.inset.none}",
+        "$description": "Inset a filo del bordo del gruppo di navigazione. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:668",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-navigation-edge-inset)"
+          }
+        }
+      },
+      "label-badge": {
+        "$type": "number",
+        "$value": "{spacing.inline.2xs}",
+        "$description": "Distanza fra voce di navigazione e badge. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:669",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-navigation-label-badge)"
+          }
+        }
+      },
+      "item-gap": {
+        "$type": "number",
+        "$value": "{spacing.stack.md}",
+        "$description": "Distanza fra voci di navigazione. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:672",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-navigation-item-gap)"
+          }
+        }
+      },
+      "inset": {
+        "$type": "number",
+        "$value": "{spacing.inset.lg}",
+        "$description": "Padding del blocco di navigazione. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:673",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-navigation-inset)"
+          }
+        }
+      },
+      "group-gap": {
+        "$type": "number",
+        "$value": "{spacing.inset.xl}",
+        "$description": "Distanza fra gruppi di navigazione. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:674",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-navigation-group-gap)"
+          }
+        }
+      },
+      "section-gap": {
+        "$type": "number",
+        "$value": "{spacing.section.md}",
+        "$description": "Distanza fra sezioni principali di navigazione. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:675",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--spacing-navigation-section-gap)"
+          }
+        }
+      },
+      "icon-label": {
+        "compact": {
+          "$type": "number",
+          "$value": "{spacing.inline.xs}",
+          "$description": "Distanza fra icona e testo nelle voci compatte. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:670",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-navigation-icon-label-compact)"
+            }
+          }
+        },
+        "$root": {
+          "$type": "number",
+          "$value": "{spacing.inline.sm}",
+          "$description": "Distanza fra icona e testo della voce. Valori in px conservati nei modes Desktop, Tablet e Mobile; riferimenti alla scala generica Responsive.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:671",
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--spacing-navigation-icon-label)"
+            }
+          }
+        }
+      }
+    }
+  },
+  "breakpoint": {
+    "min-width": {
+      "$type": "number",
+      "$value": 1024,
+      "$description": "Breakpoint approvati: min-width Desktop 1024, Tablet 768, Mobile 0 px.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:676",
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--breakpoint-min-width)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:07e291ea3d4502688e76de0dca152cc2294536b7/-1:-1",
+          "targetVariableName": "layout/desktop/min-width",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "frame-width": {
+      "$type": "number",
+      "$value": 1440,
+      "$description": "Larghezza dei frame di riferimento: Desktop 1440 px, Tablet 834 px, Mobile 390 px. Non sono soglie di breakpoint: le min-width sono rispettivamente 1024, 768 e 0 px, definite in breakpoint/min-width.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:677",
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--breakpoint-frame-width)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:67b7ab8e9c65ffb85de463dfb17671fa91608f1f/-1:-1",
+          "targetVariableName": "layout/desktop/frame-width",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "grid": {
+    "columns": {
+      "$type": "number",
+      "$value": 12,
+      "$description": "Griglia approvata, campo columns.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:678",
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--grid-columns)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:90521096470182ef6db242a3d43458767fa871ad/-1:-1",
+          "targetVariableName": "layout/desktop/columns",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "margin": {
+      "$type": "number",
+      "$value": 64,
+      "$description": "Griglia approvata, campo margin.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:679",
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--grid-margin)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d940df91e1f5985994f1ad31bc549ac5f0a29c16/-1:-1",
+          "targetVariableName": "layout/desktop/margin",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "container": {
+      "$type": "number",
+      "$value": 1312,
+      "$description": "Griglia approvata, campo container.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:680",
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--grid-container)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:b4a335140b03f84f7b15e02b327d5d25c642a90b/-1:-1",
+          "targetVariableName": "layout/desktop/container",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    },
+    "baseline": {
+      "$type": "number",
+      "$value": 4,
+      "$description": "Baseline comune 4 px.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:55:681",
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--grid-baseline)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:84b418e1640274a2027717755cb2f0a415c453d2/-1:-1",
+          "targetVariableName": "layout/baseline",
+          "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+          "targetVariableSetName": "Brand"
+        }
+      }
+    }
+  },
+  "font": {
+    "display": {
+      "font-size": {
+        "$type": "number",
+        "$value": 90,
+        "$description": "Apertura hero o copertina. Non usare per pagine di contenuto o card. Desktop/Tablet e Mobile derivati dalla scala.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:682",
+          "com.figma.scopes": [
+            "FONT_SIZE"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--font-display-font-size)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f630dda2ed643cf3a5e27cf9af43cd5e94a0e2ee/-1:-1",
+            "targetVariableName": "font-size/1500",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "number",
+        "$value": 100,
+        "$description": "Apertura hero o copertina. Non usare per pagine di contenuto o card. Desktop/Tablet e Mobile derivati dalla scala.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:683",
+          "com.figma.scopes": [
+            "LINE_HEIGHT"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--font-display-line-height)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:b020b4c40474abb94bd900102246bf389b1cc745/-1:-1",
+            "targetVariableName": "size/2600",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "paragraph-spacing": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Titolo display: nessuno spazio aggiuntivo tra paragrafi. Gli a capo seguono la sola line-height; separare i blocchi tramite spacing/stack.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:684",
+          "com.figma.scopes": [
+            "PARAGRAPH_SPACING"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--font-display-paragraph-spacing)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+            "targetVariableName": "size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "number",
+        "$value": -2,
+        "$description": "Apertura hero o copertina. Non usare per pagine di contenuto o card. Desktop/Tablet e Mobile derivati dalla scala.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:685",
+          "com.figma.scopes": [
+            "LETTER_SPACING"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--font-display-letter-spacing)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:99d834c6931d8c385dde4282f7aa7c3f8617ce16/-1:-1",
+            "targetVariableName": "letter-spacing/neg-200",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      }
+    },
+    "heading": {
+      "h1": {
+        "font-size": {
+          "$type": "number",
+          "$value": 67,
+          "$description": "Titolo della pagina, uno per pagina. Non usare per enfatizzare testo. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:687",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h1-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:03e985aabb1d586a663f9a3e063c697fcb5afb09/-1:-1",
+              "targetVariableName": "font-size/1400",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 76,
+          "$description": "Titolo della pagina, uno per pagina. Non usare per enfatizzare testo. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:688",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h1-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:dca2f69f2c284ffc9a07f9bd9c48972bce1ad3c4/-1:-1",
+              "targetVariableName": "size/2000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Titolo heading/h1: nessuno spazio aggiuntivo tra paragrafi. Gli a capo seguono la sola line-height; separare i blocchi tramite spacing/stack.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:689",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h1-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+              "targetVariableName": "size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": -1.5,
+          "$description": "Titolo della pagina, uno per pagina. Non usare per enfatizzare testo. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:690",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h1-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:ad09ee26b9aece15de9ebc8aa8ada1974a8fb827/-1:-1",
+              "targetVariableName": "letter-spacing/neg-150",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      },
+      "h2": {
+        "font-size": {
+          "$type": "number",
+          "$value": 51,
+          "$description": "Titolo di sezione. Non usare per titoli di card. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:692",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h2-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:b93d4033ccb333e4e1ab83f85f18d1b24337f9db/-1:-1",
+              "targetVariableName": "font-size/1200",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 64,
+          "$description": "Titolo di sezione. Non usare per titoli di card. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:693",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h2-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:7ad95a59d65295cde38e4665f27bd516e6db4fbc/-1:-1",
+              "targetVariableName": "size/1700",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Titolo heading/h2: nessuno spazio aggiuntivo tra paragrafi. Gli a capo seguono la sola line-height; separare i blocchi tramite spacing/stack.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:694",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h2-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+              "targetVariableName": "size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Titolo di sezione. Non usare per titoli di card. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:695",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h2-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9cc16f12164e5fa375cc0f99d5e66fafe9b44a7e/-1:-1",
+              "targetVariableName": "letter-spacing/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      },
+      "h3": {
+        "font-size": {
+          "$type": "number",
+          "$value": 38,
+          "$description": "Titolo di sottosezione. Non usare per etichette di controlli. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:697",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h3-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:f2d220795f411f68c6d902ff71a23968a30c0714/-1:-1",
+              "targetVariableName": "font-size/900",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 48,
+          "$description": "Titolo di sottosezione. Non usare per etichette di controlli. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:698",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h3-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:4ca2e9dd146a896cf30c6ef3ef6a8aa5c61bda70/-1:-1",
+              "targetVariableName": "size/1300",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Titolo heading/h3: nessuno spazio aggiuntivo tra paragrafi. Gli a capo seguono la sola line-height; separare i blocchi tramite spacing/stack.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:699",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h3-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+              "targetVariableName": "size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Titolo di sottosezione. Non usare per etichette di controlli. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:700",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h3-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9cc16f12164e5fa375cc0f99d5e66fafe9b44a7e/-1:-1",
+              "targetVariableName": "letter-spacing/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      },
+      "h4": {
+        "font-size": {
+          "$type": "number",
+          "$value": 28,
+          "$description": "Titolo di card o blocco. Non usare per testo di lettura. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:702",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h4-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:fa0650b8ba346fa57f765204cd7d8e5c377ba402/-1:-1",
+              "targetVariableName": "font-size/700",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 36,
+          "$description": "Titolo di card o blocco. Non usare per testo di lettura. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:703",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h4-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:5ffc4a760ff6f5b9c294da4ce17ef6985bd82fe0/-1:-1",
+              "targetVariableName": "size/1000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Titolo heading/h4: nessuno spazio aggiuntivo tra paragrafi. Gli a capo seguono la sola line-height; separare i blocchi tramite spacing/stack.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:704",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h4-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+              "targetVariableName": "size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Titolo di card o blocco. Non usare per testo di lettura. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:705",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-heading-h4-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9cc16f12164e5fa375cc0f99d5e66fafe9b44a7e/-1:-1",
+              "targetVariableName": "letter-spacing/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      }
+    },
+    "body": {
+      "default": {
+        "font-size": {
+          "$type": "number",
+          "$value": 16,
+          "$description": "Testo di lettura principale. Non usare per note o metadati. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:707",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-body-default-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:e82ac421b3b8357602c5a6592061f3260945d6b2/-1:-1",
+              "targetVariableName": "font-size/300",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 24,
+          "$description": "Testo di lettura principale. Non usare per note o metadati. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:708",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-body-default-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:51e9cd1ffe842585a531996925391be82e9ef415/-1:-1",
+              "targetVariableName": "size/700",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 16,
+          "$description": "Testo di lettura principale. Non usare per note o metadati. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:709",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-body-default-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:7e0a9a8d642271230aa6a46b0d62afecd49f35e8/-1:-1",
+              "targetVariableName": "size/500",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Testo di lettura principale. Non usare per note o metadati. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:710",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-body-default-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9cc16f12164e5fa375cc0f99d5e66fafe9b44a7e/-1:-1",
+              "targetVariableName": "letter-spacing/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      },
+      "supporting": {
+        "font-size": {
+          "$type": "number",
+          "$value": 14,
+          "$description": "Descrizioni e introduzioni brevi. Non usare per contenuto principale. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:713",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-body-supporting-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:90fefc2984dd56d74bbd286bf87f83ae96ac4bf5/-1:-1",
+              "targetVariableName": "font-size/200",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 24,
+          "$description": "Descrizioni e introduzioni brevi. Non usare per contenuto principale. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:714",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-body-supporting-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:51e9cd1ffe842585a531996925391be82e9ef415/-1:-1",
+              "targetVariableName": "size/700",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 16,
+          "$description": "Descrizioni e introduzioni brevi. Non usare per contenuto principale. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:715",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-body-supporting-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:7e0a9a8d642271230aa6a46b0d62afecd49f35e8/-1:-1",
+              "targetVariableName": "size/500",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Descrizioni e introduzioni brevi. Non usare per contenuto principale. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:716",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-body-supporting-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9cc16f12164e5fa375cc0f99d5e66fafe9b44a7e/-1:-1",
+              "targetVariableName": "letter-spacing/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      }
+    },
+    "caption": {
+      "font-size": {
+        "$type": "number",
+        "$value": 12,
+        "$description": "Metadati, didascalie e note legali. Non usare per contenuto principale. Desktop/Tablet e Mobile derivati dalla scala.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:719",
+          "com.figma.scopes": [
+            "FONT_SIZE"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--font-caption-font-size)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:865e5d1e49d533c4416a35ef0f1d8de64bc8a102/-1:-1",
+            "targetVariableName": "font-size/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "number",
+        "$value": 20,
+        "$description": "Metadati, didascalie e note legali. Non usare per contenuto principale. Desktop/Tablet e Mobile derivati dalla scala.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:720",
+          "com.figma.scopes": [
+            "LINE_HEIGHT"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--font-caption-line-height)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:cf759643d5a192156fd87d7c971e02d277b17724/-1:-1",
+            "targetVariableName": "size/600",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "paragraph-spacing": {
+        "$type": "number",
+        "$value": 12,
+        "$description": "Metadati, didascalie e note legali. Non usare per contenuto principale. Desktop/Tablet e Mobile derivati dalla scala.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:721",
+          "com.figma.scopes": [
+            "PARAGRAPH_SPACING"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--font-caption-paragraph-spacing)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:c052a53fcbfac7bc4419ab87440e73d334fa7269/-1:-1",
+            "targetVariableName": "size/400",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Metadati, didascalie e note legali. Non usare per contenuto principale. Desktop/Tablet e Mobile derivati dalla scala.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:55:722",
+          "com.figma.scopes": [
+            "LETTER_SPACING"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--font-caption-letter-spacing)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9cc16f12164e5fa375cc0f99d5e66fafe9b44a7e/-1:-1",
+            "targetVariableName": "letter-spacing/000",
+            "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+            "targetVariableSetName": "Brand"
+          }
+        }
+      }
+    },
+    "ui": {
+      "label": {
+        "font-size": {
+          "$type": "number",
+          "$value": 12,
+          "$description": "Etichette di campi e controlli. Non usare per testo di lettura. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:725",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-label-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:865e5d1e49d533c4416a35ef0f1d8de64bc8a102/-1:-1",
+              "targetVariableName": "font-size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 16,
+          "$description": "Etichette di campi e controlli. Non usare per testo di lettura. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:726",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-label-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:7e0a9a8d642271230aa6a46b0d62afecd49f35e8/-1:-1",
+              "targetVariableName": "size/500",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Etichette di campi e controlli. Non usare per testo di lettura. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:727",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-label-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+              "targetVariableName": "size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Etichette di campi e controlli. Non usare per testo di lettura. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:728",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-label-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9cc16f12164e5fa375cc0f99d5e66fafe9b44a7e/-1:-1",
+              "targetVariableName": "letter-spacing/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      },
+      "button": {
+        "font-size": {
+          "$type": "number",
+          "$value": 16,
+          "$description": "Testo dei pulsanti. Non usare per link nel testo. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:731",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-button-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:e82ac421b3b8357602c5a6592061f3260945d6b2/-1:-1",
+              "targetVariableName": "font-size/300",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 20,
+          "$description": "Testo dei pulsanti. Non usare per link nel testo. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:732",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-button-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:cf759643d5a192156fd87d7c971e02d277b17724/-1:-1",
+              "targetVariableName": "size/600",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Testo dei pulsanti. Non usare per link nel testo. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:733",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-button-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+              "targetVariableName": "size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Testo dei pulsanti. Non usare per link nel testo. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:734",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-button-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9cc16f12164e5fa375cc0f99d5e66fafe9b44a7e/-1:-1",
+              "targetVariableName": "letter-spacing/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      },
+      "input": {
+        "font-size": {
+          "$type": "number",
+          "$value": 16,
+          "$description": "Testo digitato e placeholder. Non usare per etichette. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:737",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-input-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:e82ac421b3b8357602c5a6592061f3260945d6b2/-1:-1",
+              "targetVariableName": "font-size/300",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 20,
+          "$description": "Testo digitato e placeholder. Non usare per etichette. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:738",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-input-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:cf759643d5a192156fd87d7c971e02d277b17724/-1:-1",
+              "targetVariableName": "size/600",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Testo digitato e placeholder. Non usare per etichette. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:739",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-input-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+              "targetVariableName": "size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Testo digitato e placeholder. Non usare per etichette. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:740",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-input-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9cc16f12164e5fa375cc0f99d5e66fafe9b44a7e/-1:-1",
+              "targetVariableName": "letter-spacing/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      },
+      "navigation": {
+        "font-size": {
+          "$type": "number",
+          "$value": 16,
+          "$description": "Menu, tab e breadcrumb. Non usare per titoli di sezione. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:743",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-navigation-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:e82ac421b3b8357602c5a6592061f3260945d6b2/-1:-1",
+              "targetVariableName": "font-size/300",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 20,
+          "$description": "Menu, tab e breadcrumb. Non usare per titoli di sezione. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:744",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-navigation-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:cf759643d5a192156fd87d7c971e02d277b17724/-1:-1",
+              "targetVariableName": "size/600",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Menu, tab e breadcrumb. Non usare per titoli di sezione. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:745",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-navigation-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+              "targetVariableName": "size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Menu, tab e breadcrumb. Non usare per titoli di sezione. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:746",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-navigation-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9cc16f12164e5fa375cc0f99d5e66fafe9b44a7e/-1:-1",
+              "targetVariableName": "letter-spacing/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      },
+      "tag": {
+        "font-size": {
+          "$type": "number",
+          "$value": 12,
+          "$description": "Tag, badge e chip. Non usare per testi di stato lunghi. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:749",
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-tag-font-size)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:865e5d1e49d533c4416a35ef0f1d8de64bc8a102/-1:-1",
+              "targetVariableName": "font-size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": 16,
+          "$description": "Tag, badge e chip. Non usare per testi di stato lunghi. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:750",
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-tag-line-height)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:7e0a9a8d642271230aa6a46b0d62afecd49f35e8/-1:-1",
+              "targetVariableName": "size/500",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "paragraph-spacing": {
+          "$type": "number",
+          "$value": 0,
+          "$description": "Tag, badge e chip. Non usare per testi di stato lunghi. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:751",
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-tag-paragraph-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:9ebe5fdb017a008c9f0cdf88c6168cd0fc041bd0/-1:-1",
+              "targetVariableName": "size/000",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": 0.5,
+          "$description": "Tag, badge e chip. Non usare per testi di stato lunghi. Desktop/Tablet e Mobile derivati dalla scala.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:55:752",
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "var(--font-ui-tag-letter-spacing)"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:48e8c69617c828f9626bae18f786745c6c316aa6/-1:-1",
+              "targetVariableName": "letter-spacing/050",
+              "targetVariableSetId": "VariableCollectionId:dec349aaa5b01fca91cff0c14d0594f275f2eeee/-1:-1",
+              "targetVariableSetName": "Brand"
+            }
+          }
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Desktop"
+  }
+}
