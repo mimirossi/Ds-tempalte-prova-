@@ -122,29 +122,7 @@ figma:
 > [!TODO]
 > **Full source.** Replace the example below with the real code. For React, open the block with `tsx component preview` so the other sections can render it.
 
-```html component
-<style>
-  .button-primary {
-    display: inline-flex;
-    min-width: 112px;
-    min-height: 44px;
-    padding: var(--spacing-button-inset-vertical) var(--spacing-button-inset-horizontal);
-    justify-content: center;
-    align-items: center;
-    gap: var(--spacing-button-icon-label);
-    border-radius: var(--radius-md);
-    border: var(--border-width-none) solid var(--border-primary-default);
-    background: var(--surface-primary-default);
-    color: var(--text-primary-default-on-colour);
-    font-size: var(--font-ui-button-font-size);
-    line-height: var(--font-ui-button-line-height);
-    font-weight: 500;
-  }
-</style>
-<button class="button-primary">Continua</button>
-```
-
-```tsx preview
+```tsx component preview
 function PrimaryButton({
   label = "Continua",
   loading = false,
@@ -185,6 +163,28 @@ export default function App() {
     </main>
   );
 }
+```
+
+```html component
+<style>
+  .button-primary {
+    display: inline-flex;
+    min-width: 112px;
+    min-height: 44px;
+    padding: var(--spacing-button-inset-vertical) var(--spacing-button-inset-horizontal);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-button-icon-label);
+    border-radius: var(--radius-md);
+    border: var(--border-width-none) solid var(--border-primary-default);
+    background: var(--surface-primary-default);
+    color: var(--text-primary-default-on-colour);
+    font-size: var(--font-ui-button-font-size);
+    line-height: var(--font-ui-button-line-height);
+    font-weight: 500;
+  }
+</style>
+<button class="button-primary">Continua</button>
 ```
 
 ## Props
