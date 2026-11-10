@@ -1,3 +1,5 @@
 # Generated on publish by scripts/build-tokens.mjs
 tokens/tokens.css
 tokens/tokens.tailwind.css
+# Generated on publish by scripts/build-fonts.mjs
+preview/fonts.json

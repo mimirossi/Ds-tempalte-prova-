@@ -51,7 +51,7 @@ figma:
 ## Code
 
 > [!TODO]
-> **Full source.** Replace the example below with the real code. For React, open the block with `tsx component preview` so the other sections can render it.
+> **Full source.** Replace the example below with the real code, pasted on the lines between the two rows of backticks. React, HTML and SVG are shown with Preview and Code tabs.
 
 ```html preview tab="HTML"
 <button class="example-button">Label</button>
