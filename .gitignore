@@ -4,3 +4,5 @@ tokens/tokens.tailwind.css
 tokens/tokens.index.json
 # Generated on publish by scripts/build-fonts.mjs
 preview/fonts.json
+# Written on publish by the deploy workflow
+build.json

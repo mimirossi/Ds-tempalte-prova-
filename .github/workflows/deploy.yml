@@ -32,6 +32,8 @@ jobs:
         run: node scripts/build-tokens.mjs
       - name: List the preview fonts
         run: node scripts/build-fonts.mjs
+      - name: Mark the site as built
+        run: echo "{\"commit\":\"$GITHUB_SHA\"}" > build.json
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .

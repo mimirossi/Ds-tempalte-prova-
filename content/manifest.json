@@ -28,7 +28,7 @@
       "type": "component",
       "description": "Triggers an action, such as submitting a form or opening a dialog.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 14
     },
     {
       "slug": "components/card",
