@@ -122,7 +122,7 @@ figma:
 > [!TODO]
 > **Full source.** Replace the example below with the real code. For React, open the block with `tsx component preview` so the other sections can render it.
 
-```html component preview
+```html component
 <style>
   .button-primary {
     display: inline-flex;
@@ -142,6 +142,49 @@ figma:
   }
 </style>
 <button class="button-primary">Continua</button>
+```
+
+```tsx preview
+function PrimaryButton({
+  label = "Continua",
+  loading = false,
+  disabled,
+  className = "",
+  ...props
+}: PrimaryButtonProps) {
+  return (
+    <button
+      className={`inline-flex min-h-11 min-w-28 items-center justify-center rounded-lg border-0 bg-[#fd4ad0] px-4 py-3 font-['Bricolage_Grotesque:Medium'] text-base leading-5 font-medium whitespace-nowrap text-[#1c1c1c] transition-[background-color,box-shadow,transform] duration-150 hover:bg-[#f43ac4] active:translate-y-px active:bg-[#e92bb8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1c1c1c] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 ${className}`}
+      disabled={disabled || loading}
+      style={{ fontVariationSettings: '"opsz" 14, "wdth" 100' }}
+      type="button"
+      {...props}
+    >
+      {loading ? (
+        <span
+          aria-hidden="true"
+          className="size-4 animate-spin rounded-full border-2 border-[#1c1c1c]/30 border-t-[#1c1c1c]"
+        />
+      ) : (
+        label
+      )}
+      {loading && <span className="sr-only">Caricamento</span>}
+    </button>
+  );
+}
+
+export default function App() {
+  const [activated, setActivated] = useState(false);
+
+  return (
+    <main className="flex min-h-dvh items-center justify-center bg-white p-6">
+      <PrimaryButton label="Continua" onClick={() => setActivated(true)} />
+      <p className="sr-only" aria-live="polite">
+        {activated ? "Azione completata" : ""}
+      </p>
+    </main>
+  );
+}
 ```
 
 ## Props
