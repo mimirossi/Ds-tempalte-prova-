@@ -450,7 +450,8 @@
     }
     const groupType = node.$type || type;
     Object.keys(node).forEach((k) => {
-      if (k[0] !== "$") flattenTokens(node[k], path.concat(k), groupType, out);
+      if (k === "$root") flattenTokens(node[k], path, groupType, out);
+      else if (k[0] !== "$") flattenTokens(node[k], path.concat(k), groupType, out);
     });
   }
 
@@ -507,7 +508,8 @@
       const value = resolve(t);
       const figmaAlias = t.ext["com.figma.aliasData"] && t.ext["com.figma.aliasData"].targetVariableName;
       const alias = figmaAlias || (typeof t.value === "string" && /^\{.+\}$/.test(t.value) ? t.value.slice(1, -1) : "");
-      const cssVar = "--" + prefix + t.name.replace(/[^a-zA-Z0-9]+/g, "-").replace(/^-|-$/g, "").toLowerCase();
+      const syntax = /^var\((--[\w-]+)\)$/.exec((t.ext["com.figma.codeSyntax"] || {}).WEB || "");
+      const cssVar = syntax ? syntax[1] : "--" + prefix + t.name.replace(/[^a-zA-Z0-9]+/g, "-").replace(/^-|-$/g, "").toLowerCase();
       let visual = "";
       let shown = typeof value === "object" ? JSON.stringify(value) : String(value);
       if (t.type === "color") {
