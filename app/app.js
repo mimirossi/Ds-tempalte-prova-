@@ -400,7 +400,7 @@
   }
 
   /** Images become figures; an image that does not exist yet shows an upload placeholder. */
-  function enhanceImages(root, onChange) {
+  function enhanceImages(root, onChange, fromRepo) {
     $$("img", root).forEach((img) => {
       const src = img.getAttribute("src") || "";
       const figure = el("figure", { class: "figure" });
@@ -411,6 +411,14 @@
 
       const missing = () => {
         if (/^https?:/i.test(src)) return;
+        // Just uploaded and not published yet: read it from the repository instead.
+        const r = detectRepo() || config.repo || {};
+        if (fromRepo && r.owner && !img.dataset.retried) {
+          img.dataset.retried = "1";
+          img.addEventListener("error", missing, { once: true });
+          img.src = "https://raw.githubusercontent.com/" + r.owner + "/" + r.name + "/" + branch() + "/" + src;
+          return;
+        }
         const dir = src.split("/").slice(0, -1).join("/");
         const box = el("div", { class: "img-missing" },
           ICON.image + "<strong>" + esc(img.alt || "Image") + "</strong><span>Upload this file to show it here:</span><code>" + esc(src) + "</code>" +
@@ -475,12 +483,72 @@
     return "";
   }
 
-  async function renderTokens(box, slug, onChange) {
+  function tokenVisual(type, name, shown) {
+    if (type === "color") return '<span class="swatch" style="background:' + esc(shown) + '"></span>';
+    if (/^-?[\d.]+(px|rem)?$/.test(shown)) {
+      const n = parseFloat(shown);
+      if (/radius|corner/i.test(name)) return '<span class="radius-demo" style="border-top-left-radius:' + Math.min(n, 36) + 'px"></span>';
+      if (n >= 0 && n <= 2000) return '<span class="bar" style="width:' + Math.min(n, 224) + 'px"></span>';
+    }
+    return "";
+  }
+
+  let tokenIndex;
+  /** Table of the tokens a page's code refers to, plus those whose name contains `match`. */
+  async function renderUsedTokens(box, spec, pageCode, onChange) {
+    try {
+      tokenIndex = tokenIndex || JSON.parse(await fetchText("tokens/tokens.index.json"));
+    } catch (e) {
+      tokenIndex = [];
+    }
+    const used = new Set();
+    if (spec.used) {
+      (pageCode.match(/var\(\s*--[\w-]+/g) || []).forEach((m) => used.add(m.replace(/var\(\s*/, "")));
+      // Tailwind colour utilities: bg-surface-primary-default -> --surface-primary-default
+      const classes = new Set(pageCode.match(/[\w:-]+/g) || []);
+      tokenIndex.forEach((t) => {
+        if (t.type !== "color") return;
+        const util = t.var.slice(2).replace(/^colou?rs?-/, "");
+        const re = new RegExp("(^|:)(bg|text|border|ring|outline|fill|stroke|decoration|divide|from|via|to|accent|caret|shadow|placeholder)-" + util + "$");
+        for (const c of classes) if (re.test(c)) return used.add(t.var);
+      });
+    }
+    const words = (spec.match || "").toLowerCase().split(/[,\s]+/).filter(Boolean);
+    const rows = tokenIndex.filter((t) => used.has(t.var) || words.some((w) => t.name.toLowerCase().split(/[^a-z0-9]+/).includes(w)));
+    if (!rows.length) {
+      box.replaceWith(
+        el("div", { class: "todo" },
+          '<div class="todo-head"><span>No tokens yet</span></div><div class="todo-body"><p>This table lists the tokens the code on this page uses' +
+            (words.length ? " and the tokens named <code>" + esc(words.join(", ")) + "</code>" : "") +
+            ". It fills itself in once the code refers to tokens, for example <code>var(--surface-primary-default)</code>, and the token files are in <code>tokens/</code>.</p></div>"));
+      onChange();
+      return;
+    }
+    const wrap = el("div", { class: "table-wrap" },
+      "<table><thead><tr><th></th><th>Token</th><th>Value</th><th>CSS variable</th></tr></thead><tbody>" +
+        rows.map((t) => {
+          const alias = /^var\((--[\w-]+)\)$/.exec(t.value || "");
+          return (
+            "<tr><td>" + tokenVisual(t.type, t.name, t.resolved || "") + '</td><td><span class="token-name">' + esc(t.name) + "</span>" +
+            (alias ? '<span class="token-alias">→ ' + esc(alias[1]) + "</span>" : "") +
+            (t.description ? '<span class="token-alias">' + esc(t.description) + "</span>" : "") +
+            '</td><td class="token-name">' + esc(t.resolved || t.value || "") + '</td><td><button type="button" class="token-copy" data-copy="var(' + esc(t.var) + ')">' + esc(t.var) + "</button></td></tr>"
+          );
+        }).join("") + "</tbody></table>");
+    wrap.addEventListener("click", (e) => {
+      const btn = e.target.closest(".token-copy");
+      if (btn) copy(btn.dataset.copy, "Variable");
+    });
+    box.replaceWith(wrap);
+  }
+
+  async function renderTokens(box, slug, onChange, pageCode) {
     const spec = {};
     box.textContent.split(/\r?\n/).forEach((line) => {
       const i = line.indexOf(":");
       if (i > 0) spec[line.slice(0, i).trim()] = line.slice(i + 1).trim();
     });
+    if (!spec.file && (spec.used || spec.match)) return renderUsedTokens(box, spec, pageCode || "", onChange);
     const file = spec.file || "";
     let json;
     try {
@@ -562,7 +630,7 @@
         }
       }
       const btn = el("button", { type: "button", class: h.tagName === "H3" ? "nested" : "" },
-        (open ? '<span class="dot edit-only" title="Has placeholders"></span>' : "") + "<span>" + esc(h.textContent) + "</span>");
+        (open ? '<span class="dot edit-only" title="Has placeholders"></span>' : "") + "<span>" + esc(h.dataset.title || h.textContent) + "</span>");
       if (h.classList.contains("section-missing")) btn.classList.add("edit-only");
       btn.addEventListener("click", () => h.scrollIntoView({ behavior: "smooth" }));
       toc.appendChild(btn);
@@ -575,10 +643,14 @@
 
   async function renderPage(slug) {
     const article = $("#article");
-    let src;
+    let src = null;
     try {
       src = await fetchText("content/" + slug + ".md");
-    } catch (e) {
+    } catch (e) {}
+    // Something just saved from the site editor shows straight away, before the site republishes.
+    const draft = window.DSEditor ? DSEditor.draftFor(slug, src) : null;
+    if (draft != null) src = draft;
+    if (src == null) {
       $("#toc").innerHTML = "";
       article.innerHTML =
         '<div class="page-header"><h1>Page not found</h1><p class="lead">There is no page at <code>content/' + esc(slug) + '.md</code>. <a href="#/">Back to the overview</a></p></div>';
@@ -602,12 +674,15 @@
     if (data.figma) bar.innerHTML += '<a href="' + esc(data.figma) + '" target="_blank" rel="noopener">' + ICON.figma + "Open in Figma</a>";
     if (repoUrl()) {
       bar.innerHTML +=
-        '<a class="edit-only" href="' + editUrl(slug) + '" target="_blank" rel="noopener">' + ICON.edit + "Edit this page</a>" +
+        '<a class="edit-only" href="' + editUrl(slug) + '" target="_blank" rel="noopener">' + ICON.edit + "Edit on GitHub</a>" +
         '<a class="edit-only" href="' + uploadUrl(imageDir(slug)) + '" target="_blank" rel="noopener">' + ICON.image + "Upload images</a>";
     }
     if (bar.innerHTML) header.appendChild(bar);
     article.appendChild(header);
 
+    if (draft != null) {
+      article.appendChild(el("div", { class: "callout note saved-banner" }, '<span class="callout-label">Saved</span>Your changes are saved. They will be visible to everyone in about a minute.'));
+    }
     const content = el("div", { class: "content" }, marked.parse(body));
     article.appendChild(content);
 
@@ -640,10 +715,11 @@
       buildToc(content);
     };
 
+    const pageCode = $$(".code-src", content).map((n) => n.textContent).join("\n");
     enhanceCallouts(content, slug);
     enhanceCode(content);
     enhanceFigma(content);
-    enhanceImages(content, refresh);
+    enhanceImages(content, refresh, draft != null);
     $$("table", content).forEach((t) => {
       if (t.parentElement.classList.contains("table-wrap")) return;
       const wrap = el("div", { class: "table-wrap" });
@@ -654,8 +730,9 @@
     $$('a[href^="http"]', content).forEach((a) => a.setAttribute("target", "_blank"));
     if (slug === "index") content.appendChild(overviewCards());
     refresh();
-    await Promise.all($$(".tokens-src", content).map((box) => renderTokens(box, slug, refresh)));
+    await Promise.all($$(".tokens-src", content).map((box) => renderTokens(box, slug, refresh, pageCode)));
     refresh();
+    if (window.DSEditor && repoUrl()) DSEditor.decorate(article, slug, { title, data });
   }
 
   function grouped(pages) {
@@ -714,7 +791,14 @@
       let href = repoUrl() + "/new/" + branch() + "/" + item.folder + "?filename=" + encodeURIComponent(item.filename);
       const tpl = templates[item.template];
       if (tpl && encodeURIComponent(tpl).length < 6000) href += "&value=" + encodeURIComponent(tpl);
-      box.appendChild(el("a", { href, target: "_blank", rel: "noopener" }, ICON.plus + esc(item.label)));
+      const link = el("a", { href, target: "_blank", rel: "noopener" }, ICON.plus + esc(item.label));
+      if (window.DSEditor) {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          DSEditor.newPage(item);
+        });
+      }
+      box.appendChild(link);
     });
   }
 
@@ -803,6 +887,14 @@
     window.addEventListener("hashchange", route);
     route();
   }
+
+  // Used by the site editor (app/editor.js).
+  window.DS = {
+    get config() { return config; },
+    get manifest() { return manifest; },
+    templates, branch, currentSlug, route, renderNav, parseFrontmatter, parseInfo, detectCode, toast, el, esc, norm, slugify, imageDir, ICON,
+    repo: () => detectRepo() || config.repo || {},
+  };
 
   init();
 })();

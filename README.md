@@ -6,16 +6,19 @@ Every page starts from a template full of placeholders that list what still has 
 
 ## Adding content
 
-Open the site, keep **Edit mode** on, and use the links on the page:
+Open the site and keep **Edit mode** on. Content is added from the site itself, with no Markdown to write:
 
 | To do this | Use |
 | --- | --- |
-| Change a page | **Edit this page** → edit the Markdown → Commit changes |
-| Add images | **Upload images** → drop the files → Commit changes |
-| Add a page | **New component page** / **New foundation page** in the sidebar |
-| Add tokens | Upload Figma variable exports to `tokens/` |
+| Fill or change a section | **Edit** next to the section title, or **Add content** on a placeholder |
+| Add images, code, SVG, Figma links | The **Add** buttons inside the editing panel |
+| Change title, description, status | **Page settings** |
+| Add a page | **New component page** / **New foundation page** in the side menu |
+| Add tokens or fonts | Upload the files to `tokens/` or `preview/fonts/` on GitHub |
 
-The site republishes about a minute after each commit. The full syntax, with examples, is on the site under **Get started → Editing guide** (`content/get-started/editing-guide.md`).
+The first time, the site asks each editor to sign in with a GitHub access code (a fine-grained personal access token limited to this repository, with **Contents: Read and write**). The code stays in that person's browser. Changes are saved as commits and published about a minute later.
+
+Pages can still be edited as Markdown files on GitHub; the format is described on the site under **Get started → Editing guide**.
 
 ## Structure
 
@@ -30,7 +33,7 @@ preview/preview.css CSS loaded inside live previews: put the design system's CSS
 preview/tailwind.css Tailwind theme used inside live previews
 preview/fonts/       Font files for live previews: upload a file and it is picked up on its own
 site.config.json    Title, sidebar order, required sections, repository
-app/                The site itself (theme.css holds its fonts and colours)
+app/                The site itself (theme.css holds its fonts and colours, editor.js the editing panel)
 ```
 
 ## Showing components from code

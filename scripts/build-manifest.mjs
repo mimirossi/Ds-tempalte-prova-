@@ -45,7 +45,9 @@ const pages = walk(contentDir).map((file) => {
   }
   for (const m of body.matchAll(/^```tokens\s*\n([\s\S]*?)^```/gm)) {
     const file = /^file:\s*(.+)$/m.exec(m[1])
-    if (!file || !existsSync(join(root, file[1].trim()))) placeholders++
+    if (!file && /^(used|match):/m.test(m[1])) {
+      if (!/var\(\s*--/.test(body)) placeholders++ // "tokens used" table with nothing to show yet
+    } else if (!file || !existsSync(join(root, file[1].trim()))) placeholders++
   }
   const sections = config.templates?.[data.type]?.sections ?? []
   const have = [...prose.matchAll(/^##\s+(.+)$/gm)].map((m) => norm(m[1]))
