@@ -40,7 +40,8 @@ function varName(token) {
   return m ? m[1] : cssName(token.name)
 }
 
-const UNITLESS = /weight|opacity|z-?index|column|count|ratio|scale|order/i
+// Whole words only: "order" must not match "border".
+const UNITLESS = /(^|[^a-z])(weight|opacity|z-?index|columns?|count|ratio|scale|order)([^a-z]|$)/i
 
 function cssValue(token) {
   const { value, type, ext } = token
