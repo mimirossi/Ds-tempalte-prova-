@@ -165,6 +165,28 @@ export default function App() {
 }
 ```
 
+```html preview
+<style>
+  .button-primary {
+    display: inline-flex;
+    min-width: 112px;
+    min-height: 44px;
+    padding: var(--spacing-button-inset-vertical) var(--spacing-button-inset-horizontal);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-button-icon-label);
+    border-radius: var(--radius-md);
+    border: var(--border-width-none) solid var(--border-primary-default);
+    background: var(--surface-primary-default);
+    color: var(--text-primary-default-on-colour);
+    font-size: var(--font-ui-button-font-size);
+    line-height: var(--font-ui-button-line-height);
+    font-weight: 500;
+  }
+</style>
+<button class="button-primary">Continua</button>
+```
+
 ## Props
 
 > [!TODO]
