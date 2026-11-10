@@ -96,7 +96,7 @@ export default function App() {
 }
 ```
 
-```html component preview
+```html component
 <style>
   .button-primary {
     display: inline-flex;
