@@ -215,7 +215,7 @@
     return Babel.transform(src, { filename: "preview.tsx", presets: ["typescript", ["react", { runtime: "classic" }]] }).code;
   }
 
-  const FIGMA_STYLES = ["Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"];
+  const FIGMA_STYLES = ["Thin", "ExtraLight", "Extra Light", "Light", "Regular", "Medium", "SemiBold", "Semi Bold", "Bold", "ExtraBold", "Extra Bold", "Black"];
 
   /**
    * Fonts for previews, from "preview.fonts" in site.config.json. Each family is also
@@ -225,8 +225,16 @@
   // Font files are inlined: a sandboxed preview cannot fetch fonts from the site.
   const fontData = {};
   async function loadFonts() {
+    // Fonts listed in site.config.json come first; files uploaded to preview/fonts are added on their own.
+    config.preview = config.preview || {};
+    const fonts = (config.preview.fonts = (config.preview.fonts || []).slice());
+    try {
+      JSON.parse(await fetchText("preview/fonts.json")).forEach((f) => {
+        if (!fonts.some((g) => g.src === f.src)) fonts.push(f);
+      });
+    } catch (e) {}
     await Promise.all(
-      ((config.preview && config.preview.fonts) || []).map(async (f) => {
+      fonts.map(async (f) => {
         try {
           const res = await fetch(f.src);
           if (!res.ok) return;

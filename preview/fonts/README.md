@@ -1,14 +1,11 @@
 # Preview fonts
 
-Upload the design system's font files here (`.woff2` preferred), then list each one under `preview.fonts` in `site.config.json`:
+Upload the design system's font files here (`.woff2`, `.woff`, `.ttf` or `.otf`). Nothing else is needed: on publish, the family name, weight and style are read from each file and the font becomes available in every live preview, also under the names Figma writes in exported code (`Family:Medium`).
+
+The default text font in previews is the first one listed under `preview.fonts` in `site.config.json`. Change that entry to make an uploaded font the default:
 
 ```json
 "fonts": [
-  { "family": "Inter", "src": "preview/fonts/Inter-Variable.woff2", "weight": "100 900" },
-  { "family": "Brand Serif", "src": "preview/fonts/BrandSerif-Bold.woff2", "weight": "700", "figmaStyle": "Bold" }
+  { "family": "Inter", "src": "preview/fonts/Inter-Variable.woff2", "weight": "100 900" }
 ]
 ```
-
-- `weight`: a range (`"100 900"`) for a variable font, a single value for a static file.
-- `figmaStyle`: for a static file, the style name Figma uses (`Regular`, `Medium`, `Bold`…), so code copied from Figma finds the font.
-- The first font in the list is the default text font in previews.
