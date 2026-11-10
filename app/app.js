@@ -298,13 +298,14 @@
           const run =
             "Object.assign(window,React);if(!window.cn)window.cn=function(){return Array.prototype.slice.call(arguments).flat(9).filter(Boolean).join(' ')};\n" +
             js + "\nReactDOM.createRoot(document.getElementById('root')).render(React.createElement(__Preview));";
-          frame.srcdoc = frameDoc(id, '<div id="root" style="display:contents"></div>', run, true);
+          frame.srcdoc = frameDoc(id, (components.styles || "") + '<div id="root" style="display:contents"></div>', run, true);
         })
         .catch((e) => {
           frame.srcdoc = frameDoc(id, '<pre class="ds-preview-error">' + esc("Preview error: " + e.message) + "</pre>", "", false);
         });
     } else {
-      frame.srcdoc = frameDoc(id, code, "", false);
+      // Skip the shared styles when this block already carries them.
+      frame.srcdoc = frameDoc(id, (components.styles && !code.includes("<style") ? components.styles : "") + code, "", false);
     }
     return panel;
   }
@@ -313,7 +314,13 @@
   function enhanceCode(root) {
     const done = new Set();
     // Blocks flagged `component` are in scope for every React preview on the page.
-    const components = $$(".code-src[data-component]", root).map((n) => n.textContent);
+    const marked_ = $$(".code-src[data-component]", root);
+    const components = marked_.filter((n) => REACT_LANGS.includes(n.dataset.lang)).map((n) => n.textContent);
+    // An HTML block flagged `component` shares its <style> rules with every preview on the page.
+    components.styles = marked_
+      .filter((n) => !REACT_LANGS.includes(n.dataset.lang))
+      .map((n) => (n.textContent.match(/<style[\s\S]*?<\/style>/gi) || []).join(""))
+      .join("");
     $$(".code-src", root).forEach((first) => {
       if (done.has(first)) return;
       const group = [first];
