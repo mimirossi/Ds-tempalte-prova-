@@ -313,7 +313,7 @@
   function enhanceCode(root) {
     const done = new Set();
     // Blocks flagged `component` are in scope for every React preview on the page.
-    const components = $$(".code-src[data-component]", root).filter((n) => REACT_LANGS.includes(n.dataset.lang)).map((n) => n.textContent);
+    const components = $$(".code-src[data-component]", root).map((n) => n.textContent);
     $$(".code-src", root).forEach((first) => {
       if (done.has(first)) return;
       const group = [first];
