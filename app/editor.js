@@ -380,7 +380,7 @@
       const row = el("div", { class: "editor-row" });
       row.appendChild(field("Language", select(block.lang, LANGS, (v) => (block.lang = v))));
       row.appendChild(checkbox("Show it rendered (Preview tab)", block.preview, (v) => (block.preview = v)));
-      row.appendChild(checkbox("Full component: other blocks on this page can use it", block.component, (v) => (block.component = v)));
+      row.appendChild(checkbox("Full component: other previews on this page can use it (React component, or the CSS of an HTML block)", block.component, (v) => (block.component = v)));
       body.appendChild(row);
     } else if (block.type === "svg") {
       body.appendChild(textarea(block.text, (v) => (block.text = v), 7, true));

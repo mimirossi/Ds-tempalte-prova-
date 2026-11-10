@@ -123,6 +123,8 @@ export default function Button({ label = "Button", variant = "Default" }) {
 ```
 ````
 
+The same works without React: flag an HTML block that holds the component's `<style>` with `component`, and the other HTML previews on the page can use its classes, so each one is a single line such as `<button class="button-primary" disabled>Label</button>`.
+
 Three things to know:
 
 - The opening line is for the language and the flags; the code starts on the next line. A block with no language, or with code pasted right after the backticks, is detected automatically: React, HTML and SVG get a preview.
