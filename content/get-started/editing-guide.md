@@ -120,8 +120,9 @@ export default function Button({ label = "Button", variant = "Default" }) {
 
 Three things to know:
 
-- The opening line holds only the language and the flags. The code starts on the next line.
+- The opening line is for the language and the flags; the code starts on the next line. A block with no language, or with code pasted right after the backticks, is detected automatically: React, HTML and SVG get a preview.
 - `import` lines are ignored in previews. React and its hooks are available; other packages are not.
+- Code only names a font; the font file has to be on the site. Upload it to `preview/fonts/` and list it under `preview.fonts` in `site.config.json`. The first font listed is the default text font in previews.
 - CSS classes that are not Tailwind, such as `.button-base`, must be defined in `preview/preview.css`. The Tailwind theme goes in `preview/tailwind.css`.
 
 ## SVG

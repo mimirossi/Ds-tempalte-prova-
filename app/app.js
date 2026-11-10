@@ -101,19 +101,40 @@
 
   const LANG_ALIAS = { html: "xml", vue: "xml", svg: "xml", jsx: "javascript", tsx: "typescript", sh: "bash", shell: "bash" };
 
+  const FLAGS = ["preview", "component"];
+
+  /** Reads the opening line of a code block: language, flags and labels. */
   function parseInfo(info) {
     info = info || "";
     const attrs = {};
     const rest = info.replace(/(\w+)="([^"]*)"/g, (m, k, v) => ((attrs[k] = v), ""));
     const words = rest.split(/\s+/).filter(Boolean);
-    return { lang: words[0] || "", preview: words.includes("preview"), component: words.includes("component"), tab: attrs.tab || "", title: attrs.title || "" };
+    // Code pasted right after the backticks is not a language name: keep it as code.
+    const pasted = words.length > 0 && (!/^[\w+#.-]+$/.test(words[0]) || words.slice(1).some((w) => !FLAGS.includes(w)));
+    if (pasted) return { pasted: true, lang: "", preview: false, component: false, tab: "", title: "" };
+    return { lang: (words[0] || "").toLowerCase(), preview: words.includes("preview"), component: words.includes("component"), tab: attrs.tab || "", title: attrs.title || "" };
+  }
+
+  /** Guesses what pasted code is, so it can be highlighted and shown without any flags. */
+  function detectCode(code) {
+    const text = code.trim();
+    if (/^<svg[\s>]/i.test(text)) return { lang: "svg", preview: true };
+    const jsx = /<[A-Z][\w.]*[\s/>]|className=|<\/[a-z]+>\s*\)?;?\s*\}?\s*$/.test(text);
+    const script = /^\s*(import|export|const|let|function|type|interface|class)\b/m.test(text);
+    if (script && jsx) return { lang: "tsx", preview: true, component: /(function|const|class)\s+[A-Z]\w*/.test(text) };
+    if (/^<[a-z!]/i.test(text)) return { lang: jsx && /<[A-Z]/.test(text) ? "tsx" : "html", preview: true };
+    if (script) return { lang: "typescript" };
+    if (/^[.#:@\w-][^{}]*\{[^}]*:[^}]*\}/m.test(text)) return { lang: "css" };
+    return { lang: "" };
   }
 
   marked.use({
     gfm: true,
     renderer: {
       code(token) {
-        const info = parseInfo(token.lang);
+        let info = parseInfo(token.lang);
+        if (info.pasted) token = { text: token.lang + "\n" + token.text };
+        if (info.pasted || !info.lang) info = Object.assign(info, detectCode(token.text));
         if (info.lang === "tokens") return '<div class="tokens-src">' + esc(token.text) + "</div>";
         return (
           '<div class="code-src" data-lang="' + esc(info.lang) + '" data-tab="' + esc(info.tab) +
@@ -194,6 +215,47 @@
     return Babel.transform(src, { filename: "preview.tsx", presets: ["typescript", ["react", { runtime: "classic" }]] }).code;
   }
 
+  const FIGMA_STYLES = ["Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"];
+
+  /**
+   * Fonts for previews, from "preview.fonts" in site.config.json. Each family is also
+   * registered under the names Figma writes in exported code ("Family:Medium"), so
+   * pasted code finds its font. The first family is the default text font.
+   */
+  // Font files are inlined: a sandboxed preview cannot fetch fonts from the site.
+  const fontData = {};
+  async function loadFonts() {
+    await Promise.all(
+      ((config.preview && config.preview.fonts) || []).map(async (f) => {
+        try {
+          const res = await fetch(f.src);
+          if (!res.ok) return;
+          const bytes = new Uint8Array(await res.arrayBuffer());
+          let bin = "";
+          for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+          fontData[f.src] = "data:font/" + (f.src.split(".").pop() || "woff2").toLowerCase() + ";base64," + btoa(bin);
+        } catch (e) {}
+      })
+    );
+  }
+
+  function fontCss() {
+    const fonts = (config.preview && config.preview.fonts) || [];
+    let css = "";
+    fonts.forEach((f) => {
+      if (!f.family || !f.src) return;
+      const format = /\.woff2$/i.test(f.src) ? "woff2" : /\.woff$/i.test(f.src) ? "woff" : /\.otf$/i.test(f.src) ? "opentype" : "truetype";
+      const face = (name, weight) =>
+        '@font-face{font-family:"' + name + '";src:url("' + (fontData[f.src] || f.src) + '") format("' + format + '");font-weight:' + weight + ";font-style:" + (f.style || "normal") + ";font-display:swap}";
+      css += face(f.family, f.weight || "400");
+      // A variable font answers to every Figma style name; a static file only to its own.
+      if (/\s/.test(String(f.weight || ""))) FIGMA_STYLES.forEach((style) => (css += face(f.family + ":" + style, f.weight)));
+      else if (f.figmaStyle) css += face(f.family + ":" + f.figmaStyle, f.weight || "400");
+    });
+    if (fonts[0] && fonts[0].family) css += 'body.ds-preview{font-family:"' + fonts[0].family + '",system-ui,sans-serif}';
+    return css.replace(/<\//g, "");
+  }
+
   function frameDoc(id, body, script, react) {
     const pv = config.preview || {};
     const tag = (src) => '<script src="' + esc(src) + '"></' + "script>";
@@ -201,6 +263,7 @@
     return (
       '<!doctype html><html data-theme="' + (document.documentElement.dataset.theme || "light") + '"><head><meta charset="utf-8"><base href="' +
       esc(document.baseURI.split("#")[0]) + '">' +
+      "<style>" + fontCss() + "</style>" +
       "<style>.ds-preview-error{margin:0;padding:12px;color:#c62828;font:12px/1.5 ui-monospace,monospace;white-space:pre-wrap;text-align:left}</style>" +
       (pv.stylesheets || []).map((href) => '<link rel="stylesheet" href="' + esc(href) + '">').join("") +
       (pv.tailwind ? (tailwindTheme ? '<style type="text/tailwindcss">' + safe(tailwindTheme) + "</style>" : "") + tag("app/vendor/tailwind-browser.js") : "") +
@@ -693,6 +756,8 @@
         } catch (e) {}
       }
     }
+
+    await loadFonts();
 
     $("#brand-title").textContent = config.title || "Design System";
     $("#brand-badge").textContent = config.badge || "DS";

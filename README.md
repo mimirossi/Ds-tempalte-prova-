@@ -28,6 +28,7 @@ assets/images/      One folder of images per page
 tokens/             Figma variable exports (JSON)
 preview/preview.css CSS loaded inside live previews: put the design system's CSS here
 preview/tailwind.css Tailwind theme used inside live previews
+preview/fonts/       Font files for live previews, listed under preview.fonts in site.config.json
 site.config.json    Title, sidebar order, required sections, repository
 app/                The site itself (theme.css holds its fonts and colours)
 ```

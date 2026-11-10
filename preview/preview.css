@@ -4,6 +4,8 @@
  * Put the design system's own CSS here — tokens and component classes — or add
  * more files under "preview.stylesheets" in site.config.json. Whatever is loaded
  * here is what developers see rendered in the Preview tab.
+ *
+ * Fonts are set under "preview.fonts" in site.config.json, not here.
  */
 
 body.ds-preview {
@@ -14,7 +16,6 @@ body.ds-preview {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  font-family: system-ui, sans-serif;
   background: transparent;
 }
 
