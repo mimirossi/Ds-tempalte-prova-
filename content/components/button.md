@@ -162,7 +162,6 @@ export default function App() {
       </p>
     </main>
   );
-}
 ```
 
 ```html component
