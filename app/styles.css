@@ -879,3 +879,7 @@ body.no-edit .section-missing {
   height: auto;
   margin: 1.2rem 0;
 }
+
+.token-copy {
+  white-space: nowrap;
+}

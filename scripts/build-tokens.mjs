@@ -2,6 +2,7 @@
 // Runs automatically on every push (see .github/workflows/deploy.yml).
 //
 //   tokens/tokens.css           :root { --color-text-primary: #17171a; … }
+//   tokens/tokens.index.json   list of every token, for the "tokens used" tables
 //   tokens/tokens.tailwind.css  Tailwind theme, so bg-text-primary etc. work in previews
 //
 // Rules:
@@ -23,7 +24,7 @@ const cssName = (name) => "--" + prefix + name.replace(/[^a-zA-Z0-9]+/g, "-").re
 function flatten(node, path, type, out) {
   if (!node || typeof node !== "object") return
   if ("$value" in node) {
-    out.push({ name: path.join("/"), type: node.$type || type || "", value: node.$value, ext: node.$extensions || {} })
+    out.push({ name: path.join("/"), type: node.$type || type || "", value: node.$value, ext: node.$extensions || {}, description: node.$description || "" })
     return
   }
   for (const key of Object.keys(node)) {
@@ -109,6 +110,17 @@ const resolve = (name, depth = 0) => {
   return m && depth < 10 ? resolve(m[1], depth + 1) : light[name]
 }
 writeFileSync(join(dir, "tokens.css"), css)
+
+// Index for the "tokens used by this component" tables on the site.
+const index = new Map()
+for (const set of sets.filter((s) => !s.dark)) {
+  for (const token of set.tokens) {
+    const name = varName(token)
+    if (!(name in light)) continue
+    index.set(name, { name: token.name, var: name, type: token.type, value: light[name], resolved: resolve(name), description: token.description })
+  }
+}
+writeFileSync(join(dir, "tokens.index.json"), JSON.stringify([...index.values()]) + "\n")
 
 // Tailwind: expose every colour token as a colour utility (bg-…, text-…, border-…).
 const colors = [...new Set(sets.flatMap((s) => s.tokens.filter((t) => t.type === "color").map(varName)))]

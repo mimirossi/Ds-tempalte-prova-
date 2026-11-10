@@ -176,6 +176,17 @@ path: color
 
 Uploading a newer export under the same file name updates every table that reads it.
 
+### Tokens used by a component
+
+On a component page, this block lists the tokens the code on the page refers to, plus every token whose name contains the word after `match`. Nothing to maintain by hand: it follows the code.
+
+````markdown
+```tokens
+used: code
+match: button
+```
+````
+
 ### Tokens in code
 
 Every token also becomes a CSS variable, with the name shown in the last column of the table. Previews load these variables, so component code can use them and follows the tokens when they change:

@@ -73,8 +73,10 @@ figma:
 
 ## Design tokens
 
-> [!TODO]
-> **Tokens used.** List the tokens this component reads, or point a `tokens` block at the Figma export.
+```tokens
+used: code
+match: radio-group
+```
 
 ## Accessibility
 

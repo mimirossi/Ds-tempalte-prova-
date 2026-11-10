@@ -176,8 +176,10 @@ export default function App() {
 
 ## Design tokens
 
-> [!TODO]
-> **Tokens used.** List the tokens this component reads, or point a `tokens` block at the Figma export.
+```tokens
+used: code
+match: button
+```
 
 ## Accessibility
 
