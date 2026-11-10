@@ -122,7 +122,7 @@ figma:
 > [!TODO]
 > **Full source.** Replace the example below with the real code. For React, open the block with `tsx component preview` so the other sections can render it.
 
-```tsx component preview
+```html component preview
 <style>
   .button-primary {
     display: inline-flex;
