@@ -5,16 +5,21 @@ order: 20
 description: How to add text, images, code, tokens and Figma frames to any page.
 ---
 
+## Editing from the site
+
+With **Edit mode** on, every section has an **Edit** button, and every yellow placeholder has an **Add content** link. Both open a panel where the section is a list of blocks: text, image, code, SVG, Figma link, do, don't, note. Fill them in, add or delete blocks, and press **Save**.
+
+- **Sign in once.** The first time, the panel asks for an access code from GitHub and shows the four steps to get one. You need a GitHub account that can write to this repository.
+- **Saved means published.** The change shows for you straight away and for everyone else about a minute later.
+- **Page settings** changes the title, description, status, Figma link and place in the menu.
+- **New component page** and **New foundation page**, at the bottom of the menu, create a page from the template.
+- **Placeholders** say what belongs in each spot. Delete a placeholder once the content is in and the counter in the menu goes down.
+
+Switch **Edit mode** off to see the site as developers will.
+
 ## How pages work
 
-Every page is one Markdown file in the `content/` folder. Saving a change on GitHub republishes the site in about a minute.
-
-- **Edit this page** at the top of any page opens that file in the GitHub editor.
-- **Upload images** opens the image folder for that page.
-- **New component page** at the bottom of the sidebar creates a page from the template.
-- **Edit mode** in the top bar shows or hides placeholders and edit links. Switch it off to see the site as developers will.
-
-The yellow dashed boxes are placeholders. Each one says what belongs there. Replace the box with the real content and the counter in the sidebar goes down.
+Behind the editor, every page is one Markdown file in the `content/` folder. The rest of this guide describes that format, for anyone who prefers to edit the files directly with **Edit on GitHub**.
 
 ## Page settings
 

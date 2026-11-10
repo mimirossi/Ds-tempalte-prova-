@@ -400,7 +400,7 @@
   }
 
   /** Images become figures; an image that does not exist yet shows an upload placeholder. */
-  function enhanceImages(root, onChange) {
+  function enhanceImages(root, onChange, fromRepo) {
     $$("img", root).forEach((img) => {
       const src = img.getAttribute("src") || "";
       const figure = el("figure", { class: "figure" });
@@ -411,6 +411,14 @@
 
       const missing = () => {
         if (/^https?:/i.test(src)) return;
+        // Just uploaded and not published yet: read it from the repository instead.
+        const r = detectRepo() || config.repo || {};
+        if (fromRepo && r.owner && !img.dataset.retried) {
+          img.dataset.retried = "1";
+          img.addEventListener("error", missing, { once: true });
+          img.src = "https://raw.githubusercontent.com/" + r.owner + "/" + r.name + "/" + branch() + "/" + src;
+          return;
+        }
         const dir = src.split("/").slice(0, -1).join("/");
         const box = el("div", { class: "img-missing" },
           ICON.image + "<strong>" + esc(img.alt || "Image") + "</strong><span>Upload this file to show it here:</span><code>" + esc(src) + "</code>" +
@@ -622,7 +630,7 @@
         }
       }
       const btn = el("button", { type: "button", class: h.tagName === "H3" ? "nested" : "" },
-        (open ? '<span class="dot edit-only" title="Has placeholders"></span>' : "") + "<span>" + esc(h.textContent) + "</span>");
+        (open ? '<span class="dot edit-only" title="Has placeholders"></span>' : "") + "<span>" + esc(h.dataset.title || h.textContent) + "</span>");
       if (h.classList.contains("section-missing")) btn.classList.add("edit-only");
       btn.addEventListener("click", () => h.scrollIntoView({ behavior: "smooth" }));
       toc.appendChild(btn);
@@ -635,10 +643,14 @@
 
   async function renderPage(slug) {
     const article = $("#article");
-    let src;
+    let src = null;
     try {
       src = await fetchText("content/" + slug + ".md");
-    } catch (e) {
+    } catch (e) {}
+    // Something just saved from the site editor shows straight away, before the site republishes.
+    const draft = window.DSEditor ? DSEditor.draftFor(slug, src) : null;
+    if (draft != null) src = draft;
+    if (src == null) {
       $("#toc").innerHTML = "";
       article.innerHTML =
         '<div class="page-header"><h1>Page not found</h1><p class="lead">There is no page at <code>content/' + esc(slug) + '.md</code>. <a href="#/">Back to the overview</a></p></div>';
@@ -662,12 +674,15 @@
     if (data.figma) bar.innerHTML += '<a href="' + esc(data.figma) + '" target="_blank" rel="noopener">' + ICON.figma + "Open in Figma</a>";
     if (repoUrl()) {
       bar.innerHTML +=
-        '<a class="edit-only" href="' + editUrl(slug) + '" target="_blank" rel="noopener">' + ICON.edit + "Edit this page</a>" +
+        '<a class="edit-only" href="' + editUrl(slug) + '" target="_blank" rel="noopener">' + ICON.edit + "Edit on GitHub</a>" +
         '<a class="edit-only" href="' + uploadUrl(imageDir(slug)) + '" target="_blank" rel="noopener">' + ICON.image + "Upload images</a>";
     }
     if (bar.innerHTML) header.appendChild(bar);
     article.appendChild(header);
 
+    if (draft != null) {
+      article.appendChild(el("div", { class: "callout note saved-banner" }, '<span class="callout-label">Saved</span>Your changes are saved. They will be visible to everyone in about a minute.'));
+    }
     const content = el("div", { class: "content" }, marked.parse(body));
     article.appendChild(content);
 
@@ -704,7 +719,7 @@
     enhanceCallouts(content, slug);
     enhanceCode(content);
     enhanceFigma(content);
-    enhanceImages(content, refresh);
+    enhanceImages(content, refresh, draft != null);
     $$("table", content).forEach((t) => {
       if (t.parentElement.classList.contains("table-wrap")) return;
       const wrap = el("div", { class: "table-wrap" });
@@ -717,6 +732,7 @@
     refresh();
     await Promise.all($$(".tokens-src", content).map((box) => renderTokens(box, slug, refresh, pageCode)));
     refresh();
+    if (window.DSEditor && repoUrl()) DSEditor.decorate(article, slug, { title, data });
   }
 
   function grouped(pages) {
@@ -775,7 +791,14 @@
       let href = repoUrl() + "/new/" + branch() + "/" + item.folder + "?filename=" + encodeURIComponent(item.filename);
       const tpl = templates[item.template];
       if (tpl && encodeURIComponent(tpl).length < 6000) href += "&value=" + encodeURIComponent(tpl);
-      box.appendChild(el("a", { href, target: "_blank", rel: "noopener" }, ICON.plus + esc(item.label)));
+      const link = el("a", { href, target: "_blank", rel: "noopener" }, ICON.plus + esc(item.label));
+      if (window.DSEditor) {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          DSEditor.newPage(item);
+        });
+      }
+      box.appendChild(link);
     });
   }
 
@@ -864,6 +887,14 @@
     window.addEventListener("hashchange", route);
     route();
   }
+
+  // Used by the site editor (app/editor.js).
+  window.DS = {
+    get config() { return config; },
+    get manifest() { return manifest; },
+    templates, branch, currentSlug, route, renderNav, parseFrontmatter, parseInfo, detectCode, toast, el, esc, norm, slugify, imageDir, ICON,
+    repo: () => detectRepo() || config.repo || {},
+  };
 
   init();
 })();
