@@ -1,0 +1,10 @@
+/*
+ * Tailwind theme for live previews (Tailwind CSS v4 syntax).
+ * Add the design system's theme tokens here so classes such as bg-primary
+ * or rounded-md resolve to the real values inside every preview.
+ *
+ * @theme {
+ *   --color-primary: #a0187c;
+ *   --radius-md: 12px;
+ * }
+ */

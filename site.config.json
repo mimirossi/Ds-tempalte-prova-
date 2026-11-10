@@ -1,0 +1,59 @@
+{
+  "title": "Design System",
+  "badge": "DS",
+  "editMode": true,
+  "repo": {
+    "owner": "mimirossi",
+    "name": "Design-System-library-template",
+    "branch": "main"
+  },
+  "groups": ["Get started", "Foundations", "Actions", "Forms", "Display", "Feedback", "Overlays", "Navigation", "Patterns"],
+  "preview": {
+    "stylesheets": ["tokens/tokens.css", "preview/preview.css"],
+    "tailwind": true,
+    "tailwindTheme": "preview/tailwind.css"
+  },
+  "tokens": {
+    "cssPrefix": ""
+  },
+  "newPage": [
+    {
+      "label": "New component page",
+      "folder": "content/components",
+      "filename": "new-component.md",
+      "template": "content/_templates/component.md"
+    },
+    {
+      "label": "New foundation page",
+      "folder": "content/foundations",
+      "filename": "new-foundation.md",
+      "template": "content/_templates/foundation.md"
+    }
+  ],
+  "templates": {
+    "component": {
+      "sections": [
+        { "title": "Overview", "hint": "What the component is and when to use it." },
+        { "title": "Anatomy", "hint": "An annotated image with the parts of the component." },
+        { "title": "Variants", "hint": "Every variant and size, with an image or live preview." },
+        { "title": "States", "hint": "Default, hover, focus, active, disabled, loading, error." },
+        { "title": "Usage", "hint": "Do and don't guidance." },
+        { "title": "Code", "hint": "Copy-ready snippets for developers." },
+        { "title": "Props", "hint": "The API table: prop, type, default, description." },
+        { "title": "Design tokens", "hint": "The tokens this component uses." },
+        { "title": "Accessibility", "hint": "Keyboard, focus, ARIA and contrast requirements." },
+        { "title": "Figma", "hint": "A link to the component in the Figma library." },
+        { "title": "Changelog", "hint": "What changed and when." }
+      ]
+    },
+    "foundation": {
+      "sections": [
+        { "title": "Overview", "hint": "The principle behind this foundation." },
+        { "title": "Tokens", "hint": "The token table, read from the Figma export in /tokens." },
+        { "title": "Usage", "hint": "How to apply it, with do and don't guidance." },
+        { "title": "Code", "hint": "How developers reference these values." },
+        { "title": "Figma", "hint": "A link to the styles or variables in Figma." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "pages": [
+    {
+      "slug": "components/alert",
+      "title": "Alert",
+      "group": "Feedback",
+      "order": 10,
+      "type": "component",
+      "description": "Tells the user about a status that needs attention.",
+      "status": "Draft",
+      "placeholders": 15
+    },
+    {
+      "slug": "components/badge",
+      "title": "Badge",
+      "group": "Actions",
+      "order": 20,
+      "type": "component",
+      "description": "Shows a short status, count or label.",
+      "status": "Draft",
+      "placeholders": 15
+    },
+    {
+      "slug": "components/button",
+      "title": "Button",
+      "group": "Actions",
+      "order": 10,
+      "type": "component",
+      "description": "Triggers an action, such as submitting a form or opening a dialog.",
+      "status": "Draft",
+      "placeholders": 15
+    },
+    {
+      "slug": "components/card",
+      "title": "Card",
+      "group": "Display",
+      "order": 10,
+      "type": "component",
+      "description": "Groups related content and actions in one container.",
+      "status": "Draft",
+      "placeholders": 15
+    },
+    {
+      "slug": "components/checkbox",
+      "title": "Checkbox",
+      "group": "Forms",
+      "order": 20,
+      "type": "component",
+      "description": "Selects one or more options from a list.",
+      "status": "Draft",
+      "placeholders": 15
+    },
+    {
+      "slug": "components/input",
+      "title": "Input",
+      "group": "Forms",
+      "order": 10,
+      "type": "component",
+      "description": "A single-line field for text, numbers, email and passwords.",
+      "status": "Draft",
+      "placeholders": 15
+    },
+    {
+      "slug": "components/modal",
+      "title": "Modal",
+      "group": "Overlays",
+      "order": 10,
+      "type": "component",
+      "description": "A dialog that interrupts the page to ask for a decision.",
+      "status": "Draft",
+      "placeholders": 15
+    },
+    {
+      "slug": "components/radio-group",
+      "title": "Radio group",
+      "group": "Forms",
+      "order": 30,
+      "type": "component",
+      "description": "Selects exactly one option from a short list.",
+      "status": "Draft",
+      "placeholders": 15
+    },
+    {
+      "slug": "components/select",
+      "title": "Select",
+      "group": "Forms",
+      "order": 40,
+      "type": "component",
+      "description": "Picks one option from a dropdown list.",
+      "status": "Draft",
+      "placeholders": 15
+    },
+    {
+      "slug": "components/tabs",
+      "title": "Tabs",
+      "group": "Navigation",
+      "order": 10,
+      "type": "component",
+      "description": "Switches between views inside the same context.",
+      "status": "Draft",
+      "placeholders": 15
+    },
+    {
+      "slug": "foundations/colors",
+      "title": "Colors",
+      "group": "Foundations",
+      "order": 10,
+      "type": "foundation",
+      "description": "Tonal scales, semantic roles and how colour is applied across themes.",
+      "status": "",
+      "placeholders": 7
+    },
+    {
+      "slug": "foundations/grid",
+      "title": "Grid & breakpoints",
+      "group": "Foundations",
+      "order": 40,
+      "type": "foundation",
+      "description": "Columns, gutters, margins and the breakpoints where the layout changes.",
+      "status": "",
+      "placeholders": 8
+    },
+    {
+      "slug": "foundations/iconography",
+      "title": "Iconography",
+      "group": "Foundations",
+      "order": 60,
+      "type": "foundation",
+      "description": "The icon set, its sizes and how icons are named and exported.",
+      "status": "",
+      "placeholders": 8
+    },
+    {
+      "slug": "foundations/radius-elevation",
+      "title": "Radius & elevation",
+      "group": "Foundations",
+      "order": 50,
+      "type": "foundation",
+      "description": "Corner radius, borders and shadows.",
+      "status": "",
+      "placeholders": 7
+    },
+    {
+      "slug": "foundations/spacing",
+      "title": "Spacing",
+      "group": "Foundations",
+      "order": 30,
+      "type": "foundation",
+      "description": "The spacing scale and how it maps to padding, gaps and layout rhythm.",
+      "status": "",
+      "placeholders": 6
+    },
+    {
+      "slug": "foundations/typography",
+      "title": "Typography",
+      "group": "Foundations",
+      "order": 20,
+      "type": "foundation",
+      "description": "Type families, the type scale and the role of each text style.",
+      "status": "",
+      "placeholders": 8
+    },
+    {
+      "slug": "get-started/editing-guide",
+      "title": "Editing guide",
+      "group": "Get started",
+      "order": 20,
+      "type": "",
+      "description": "How to add text, images, code, tokens and Figma frames to any page.",
+      "status": "",
+      "placeholders": 0
+    },
+    {
+      "slug": "get-started/for-developers",
+      "title": "For developers",
+      "group": "Get started",
+      "order": 10,
+      "type": "",
+      "description": "How to install the design system and use it in a project.",
+      "status": "",
+      "placeholders": 4
+    },
+    {
+      "slug": "index",
+      "title": "Design System",
+      "group": "",
+      "order": 999,
+      "type": "",
+      "description": "Foundations, components and copy-ready code for the product team.",
+      "status": "",
+      "placeholders": 2
+    }
+  ]
+}

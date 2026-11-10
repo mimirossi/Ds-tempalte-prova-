@@ -1,0 +1,27 @@
+{
+  "color": {
+    "background": {
+      "default": { "$type": "color", "$value": "#FFFFFF", "$description": "Page background" },
+      "muted": { "$type": "color", "$value": "#F5F5F3", "$description": "Subtle surfaces" }
+    },
+    "text": {
+      "primary": { "$type": "color", "$value": "#17171A", "$description": "Body text" },
+      "secondary": { "$type": "color", "$value": "#62626B", "$description": "Supporting text" }
+    },
+    "action": {
+      "primary": { "$type": "color", "$value": "{color.text.primary}", "$description": "Primary buttons" }
+    }
+  },
+  "space": {
+    "xs": { "$type": "number", "$value": 4 },
+    "sm": { "$type": "number", "$value": 8 },
+    "md": { "$type": "number", "$value": 16 },
+    "lg": { "$type": "number", "$value": 24 },
+    "xl": { "$type": "number", "$value": 40 }
+  },
+  "radius": {
+    "sm": { "$type": "number", "$value": 4 },
+    "md": { "$type": "number", "$value": 8 },
+    "lg": { "$type": "number", "$value": 16 }
+  }
+}

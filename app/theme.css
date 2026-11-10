@@ -1,0 +1,102 @@
+/*
+ * THEME — the only file you need to touch to rebrand the documentation site.
+ * Change fonts, colours and radius here; everything else reads these variables.
+ */
+
+@font-face {
+  font-family: "Bricolage Grotesque Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url(fonts/bricolage-grotesque-latin-ext-wght-normal.woff2) format("woff2-variations");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329,
+    U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Bricolage Grotesque Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url(fonts/bricolage-grotesque-latin-wght-normal.woff2) format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  /* Type */
+  --font-sans: "Bricolage Grotesque Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+
+  /* Shape */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  /* Light theme */
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-muted: #f5f5f3;
+  --border: #e4e4e0;
+  --text: #17171a;
+  --text-secondary: #62626b;
+  --accent: #17171a; /* brand colour: badge, active states, links underline */
+  --on-accent: #ffffff;
+  --link: #1a4fd6;
+
+  /* Placeholders ("to add" boxes) */
+  --todo-bg: #fff8e1;
+  --todo-border: #e0a800;
+  --todo-text: #6b4e00;
+
+  /* Semantic callouts */
+  --do: #14804a;
+  --do-bg: #eaf7ef;
+  --dont: #c62828;
+  --dont-bg: #fdecec;
+  --note-bg: #eef3ff;
+  --note: #1a4fd6;
+  --warn-bg: #fff3e0;
+  --warn: #b25e00;
+
+  /* Code colours */
+  --code-bg: #f7f7f5;
+  --code-keyword: #b3248f;
+  --code-string: #0b6e4f;
+  --code-number: #9a5b00;
+  --code-comment: #7c7c85;
+  --code-title: #1a4fd6;
+  --code-attr: #7a3fc4;
+}
+
+:root[data-theme="dark"] {
+  --bg: #111113;
+  --surface: #17171a;
+  --surface-muted: #1e1e22;
+  --border: #2c2c32;
+  --text: #f2f2ee;
+  --text-secondary: #a0a0aa;
+  --accent: #f2f2ee;
+  --on-accent: #111113;
+  --link: #8fb0ff;
+
+  --todo-bg: #2a2410;
+  --todo-border: #c99700;
+  --todo-text: #f1d37a;
+
+  --do: #5fd093;
+  --do-bg: #12261b;
+  --dont: #ff8a80;
+  --dont-bg: #2b1515;
+  --note-bg: #151d33;
+  --note: #8fb0ff;
+  --warn-bg: #2b1f0e;
+  --warn: #ffb968;
+
+  --code-bg: #1a1a1e;
+  --code-keyword: #ff8fd8;
+  --code-string: #86e0b4;
+  --code-number: #f0c36a;
+  --code-comment: #84848f;
+  --code-title: #8fb0ff;
+  --code-attr: #c9a4ff;
+}
