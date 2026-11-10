@@ -168,7 +168,7 @@ export default function App() {
 ```html component
 <style>
   .button-primary {
-    display: inline-flex;
+    display:inline-flex;
     min-width: 112px;
     min-height: 44px;
     padding: var(--spacing-button-inset-vertical) var(--spacing-button-inset-horizontal);
