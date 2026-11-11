@@ -82,7 +82,7 @@ When the tabs don't fit the width (long labels, small screens), the list **scrol
 Five states for each tab: default, hover, selected, focus and disabled.
 
 ```html preview
-<div class="ds-grid" style="grid-template-columns: repeat(5, auto); background: var(--surface-default); border-radius: var(--radius-lg);">
+<div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(110px, auto)); background: var(--surface-default); border-radius: var(--radius-lg);">
   <button class="tab" type="button" role="tab" aria-selected="false" tabindex="-1">Default</button>
   <button class="tab is-hover" type="button" role="tab" aria-selected="false" tabindex="-1">Hover</button>
   <button class="tab" type="button" role="tab" aria-selected="true">Selezionata</button>

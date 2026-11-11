@@ -47,7 +47,7 @@ Use a button for **actions** and a link for **navigation**. If the click changes
 Four variants carry different weight. Pick by the role of the action in the view, not by the colour you like.
 
 ```html preview
-<div class="ds-grid" style="grid-template-columns: repeat(4, auto);">
+<div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(110px, auto));">
   <div class="ds-col"><button class="button">Prenota</button><span class="ds-cap">Primary</span></div>
   <div class="ds-col"><button class="button button--accent">Ascolta</button><span class="ds-cap">Accent</span></div>
   <div class="ds-col"><button class="button button--neutral">Non ora</button><span class="ds-cap">Neutral</span></div>
@@ -79,7 +79,7 @@ With an icon, the icon goes **before** the label and is optional:
 Every variant has the same five states. Hover darkens the surface, focus draws a ring outside the button, disabled drops to the disabled surface and loading replaces the label with a spinner and blocks new clicks.
 
 ```html preview
-<div class="ds-grid" style="grid-template-columns: repeat(5, auto);">
+<div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(110px, auto));">
   <div class="ds-col"><button class="button">Prenota</button><span class="ds-cap">Default</span></div>
   <div class="ds-col"><button class="button is-hover">Prenota</button><span class="ds-cap">Hover</span></div>
   <div class="ds-col"><button class="button is-focus">Prenota</button><span class="ds-cap">Focus</span></div>
@@ -89,7 +89,7 @@ Every variant has the same five states. Hover darkens the surface, focus draws a
 ```
 
 ```html preview
-<div class="ds-grid" style="grid-template-columns: repeat(5, auto);">
+<div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(110px, auto));">
   <button class="button button--accent">Ascolta</button>
   <button class="button button--accent is-hover">Ascolta</button>
   <button class="button button--accent is-focus">Ascolta</button>

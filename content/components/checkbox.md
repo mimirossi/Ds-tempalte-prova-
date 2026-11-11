@@ -57,7 +57,7 @@ Three values. The indeterminate value is for a parent that controls a list of ch
 Default, hover, focus, disabled and error, in every value.
 
 ```html preview
-<div class="ds-grid" style="grid-template-columns: repeat(3, 260px);">
+<div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));">
   <label class="checkbox"><input type="checkbox" class="checkbox__input" tabindex="-1"><span class="checkbox__box"></span><span class="checkbox__text"><span class="checkbox__label">Default</span></span></label>
   <label class="checkbox is-hover"><input type="checkbox" class="checkbox__input" checked tabindex="-1"><span class="checkbox__box"></span><span class="checkbox__text"><span class="checkbox__label">Hover</span></span></label>
   <label class="checkbox is-focus"><input type="checkbox" class="checkbox__input" tabindex="-1"><span class="checkbox__box"></span><span class="checkbox__text"><span class="checkbox__label">Focus</span></span></label>

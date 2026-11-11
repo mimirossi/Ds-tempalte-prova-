@@ -67,7 +67,7 @@ The select has one size. The **option** inside the list has its own four states:
 ## States
 
 ```html preview
-<div class="ds-grid" style="grid-template-columns: repeat(3, 280px); align-items: start;">
+<div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); align-items: start;">
   <div class="field"><label class="field__label">Default</label><p class="field__message">Messaggio di aiuto</p><div class="select"><select class="select__control" tabindex="-1"><option>Scegli una città</option></select></div></div>
   <div class="field"><label class="field__label">Hover</label><p class="field__message">Messaggio di aiuto</p><div class="select"><select class="select__control is-hover" tabindex="-1"><option>Scegli una città</option></select></div></div>
   <div class="field"><label class="field__label">Focus</label><p class="field__message">Messaggio di aiuto</p><div class="select"><select class="select__control is-focus" tabindex="-1"><option>Scegli una città</option></select></div></div>

@@ -53,7 +53,7 @@ Use it for two to five options. With more, use a [select](#/components/select). 
 There are two components: the single **radio** and the **group** that stacks them with a legend and an optional error. Options stack vertically; use the horizontal layout only for two short options.
 
 ```html preview
-<div class="ds-grid" style="grid-template-columns: repeat(2, 300px); align-items: start;">
+<div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: start;">
   <fieldset class="radio-group">
     <legend class="radio-group__legend">Verticale</legend>
     <label class="radio"><input class="radio__input" type="radio" name="v1" checked><span class="radio__disc"></span><span class="radio__label">Biglietto intero</span></label>
@@ -73,7 +73,7 @@ There are two components: the single **radio** and the **group** that stacks the
 Default, hover, focus, disabled and error, selected or not.
 
 ```html preview
-<div class="ds-grid" style="grid-template-columns: repeat(4, 150px);">
+<div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));">
   <label class="radio"><input class="radio__input" type="radio" name="s1" tabindex="-1"><span class="radio__disc"></span><span class="radio__label">Default</span></label>
   <label class="radio is-hover"><input class="radio__input" type="radio" name="s2" tabindex="-1"><span class="radio__disc"></span><span class="radio__label">Hover</span></label>
   <label class="radio is-focus"><input class="radio__input" type="radio" name="s3" tabindex="-1"><span class="radio__disc"></span><span class="radio__label">Focus</span></label>

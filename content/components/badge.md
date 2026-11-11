@@ -45,7 +45,7 @@ Use a badge when the label helps people **scan** a list or a card. For a message
 Seven tones and two sizes. Tone says what the badge means, size says how much room there is.
 
 ```html preview
-<div class="ds-grid" style="grid-template-columns: repeat(4, auto);">
+<div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(110px, auto));">
   <div class="ds-col"><span class="badge"><span class="badge__dot"></span>Neutro</span><span class="ds-cap">Neutro</span></div>
   <div class="ds-col"><span class="badge badge--pink"><span class="badge__dot"></span>Rosa</span><span class="ds-cap">Rosa</span></div>
   <div class="ds-col"><span class="badge badge--lime"><span class="badge__dot"></span>Lime</span><span class="ds-cap">Lime</span></div>

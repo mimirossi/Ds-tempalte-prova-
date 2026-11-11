@@ -66,7 +66,7 @@ Use the right `type` and `autocomplete`: they open the correct keyboard on mobil
 Seven states. Error and success change the border **and** the message text, never the colour alone.
 
 ```html preview
-<div class="ds-grid" style="grid-template-columns: repeat(3, 280px);">
+<div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
   <div class="field"><label class="field__label">Default</label><p class="field__message">Messaggio di aiuto</p><input class="field__control" placeholder="Placeholder" tabindex="-1"></div>
   <div class="field"><label class="field__label">Hover</label><p class="field__message">Messaggio di aiuto</p><input class="field__control is-hover" placeholder="Placeholder" tabindex="-1"></div>
   <div class="field"><label class="field__label">Focus</label><p class="field__message">Messaggio di aiuto</p><input class="field__control is-focus" placeholder="Placeholder" tabindex="-1"></div>

@@ -6,19 +6,19 @@
       "group": "Feedback",
       "order": 10,
       "type": "component",
-      "description": "Tells the user about a status that needs attention.",
+      "description": "An inline message that says what happened and what to do next.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 0
     },
     {
       "slug": "components/badge",
       "title": "Badge",
-      "group": "Actions",
+      "group": "Display",
       "order": 20,
       "type": "component",
-      "description": "Shows a short status, count or label.",
+      "description": "A small pill that labels an item with a genre, a status or a count.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 0
     },
     {
       "slug": "components/button",
@@ -26,9 +26,9 @@
       "group": "Actions",
       "order": 10,
       "type": "component",
-      "description": "Triggers an action, such as submitting a form or opening a dialog.",
+      "description": "Triggers an action, such as submitting a form, opening a dialog or starting a set.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 0
     },
     {
       "slug": "components/card",
@@ -36,9 +36,9 @@
       "group": "Display",
       "order": 10,
       "type": "component",
-      "description": "Groups related content and actions in one container.",
+      "description": "A summary of one set or event: cover, tag, title, short text and a single action.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 0
     },
     {
       "slug": "components/checkbox",
@@ -46,9 +46,9 @@
       "group": "Forms",
       "order": 20,
       "type": "component",
-      "description": "Selects one or more options from a list.",
+      "description": "A control to turn one option on or off, or to select several options in a list.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 0
     },
     {
       "slug": "components/input",
@@ -56,9 +56,9 @@
       "group": "Forms",
       "order": 10,
       "type": "component",
-      "description": "A single-line field for text, numbers, email and passwords.",
+      "description": "A single-line text field with a label, an optional hint and validation messages.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 0
     },
     {
       "slug": "components/modal",
@@ -66,9 +66,9 @@
       "group": "Overlays",
       "order": 10,
       "type": "component",
-      "description": "A dialog that interrupts the page to ask for a decision.",
+      "description": "A dialog that interrupts the page to ask for one decision.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 0
     },
     {
       "slug": "components/radio-group",
@@ -76,9 +76,9 @@
       "group": "Forms",
       "order": 30,
       "type": "component",
-      "description": "Selects exactly one option from a short list.",
+      "description": "A group of options where exactly one can be chosen.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 0
     },
     {
       "slug": "components/select",
@@ -86,9 +86,9 @@
       "group": "Forms",
       "order": 40,
       "type": "component",
-      "description": "Picks one option from a dropdown list.",
+      "description": "A field that opens a list of options and lets people choose one.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 0
     },
     {
       "slug": "components/tabs",
@@ -96,9 +96,9 @@
       "group": "Navigation",
       "order": 10,
       "type": "component",
-      "description": "Switches between views inside the same context.",
+      "description": "A group of tabs that switches between views of the same content without leaving the page.",
       "status": "Draft",
-      "placeholders": 15
+      "placeholders": 0
     },
     {
       "slug": "foundations/colors",

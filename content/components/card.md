@@ -42,12 +42,12 @@ Use a card when people compare several items side by side. For a single long pie
       <div class="card__action"><a class="card__button" href="#">Apri SoundCloud</a><span class="card__note">Si apre in una nuova scheda</span></div>
     </div>
   </article>
-    <span class="ds-pin" style="top:-8px;left:-34px">1</span>
-    <span class="ds-pin" style="top:90px;left:-34px">2</span>
+    <span class="ds-pin" style="top:0;left:-34px">1</span>
+    <span class="ds-pin" style="top:125px;left:-34px">2</span>
     <span class="ds-pin" style="top:268px;left:-34px">3</span>
-    <span class="ds-pin" style="top:296px;left:-34px">4</span>
+    <span class="ds-pin" style="top:306px;left:-34px">4</span>
     <span class="ds-pin" style="top:372px;left:-34px">5</span>
-    <span class="ds-pin" style="top:412px;left:-34px">6</span>
+    <span class="ds-pin" style="top:442px;left:-34px">6</span>
   </span>
 </div>
 ```
