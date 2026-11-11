@@ -44,7 +44,7 @@ Use a button for **actions** and a link for **navigation**. If the click changes
 
 ## Variants
 
-Seven variants carry different weight. Pick by the role of the action in the view, not by the colour you like.
+Seven variants carry different weight. Pick by the role of the action in the view, not by the colour you like. The accent comes into play when: the primary is already too dominant or serves to make a specific action stand out. Very colourful wallpapers or headers, the action is very high priority. If you use the accent for the CTA, make sure there is only one button with that colour for each screen that is visible.
 
 ```html preview
 <div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(110px, auto));">
